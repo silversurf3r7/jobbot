@@ -669,7 +669,21 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T20:38:42.000Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "Golang",
+   "Kubernetes",
+   "ClickHouse",
+   "Helm",
+   "ArgoCD",
+   "Temporal",
+   "Terraform",
+   "Kafka",
+   "AWS",
+   "GCP",
+   "Azure"
+  ],
+  "requirements_summary": "5+ years building and operating scalable distributed systems, 2+ years with Golang, experience with a major cloud provider (AWS/GCP/Azure), ClickHouse, Kubernetes, Helm, ArgoCD, Temporal, and Terraform."
  },
  {
   "id": "lever___dronedeploy___d34b30c2-f6f0-41a2-ba43-19cfd1994c70",
@@ -1661,7 +1675,28 @@
   "comp_min": 129000,
   "comp_max": 193500,
   "posted_at": "2026-07-02T18:24:47.000Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "Continuous Integration (CI)",
+   "Continuous Deployment (CD)",
+   "Terraform",
+   "Kubernetes",
+   "ArgoCD",
+   "AWS",
+   "GitHub",
+   "GitHub runners",
+   "Golang",
+   "Go",
+   "Python",
+   "Java",
+   "Prometheus",
+   "ELK",
+   "Grafana",
+   "Backstage",
+   "kOps",
+   "Cilium CNI"
+  ],
+  "requirements_summary": "3+ years platform engineering experience; proficiency with CI/CD, Kubernetes, Terraform, AWS, GitHub; scripting in Golang or Python; strong communication and problem-solving skills."
  },
  {
   "id": "ashby___lido.fi___3a086df3-4a1f-418f-9c70-27eee6138cf6",
@@ -2029,7 +2064,19 @@
   "comp_min": 176000,
   "comp_max": 253000,
   "posted_at": "2026-07-01T22:25:02.110Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "AWS",
+   "GCP",
+   "Azure",
+   "Golang",
+   "Python",
+   "Java",
+   "JavaScript",
+   "C++",
+   "C"
+  ],
+  "requirements_summary": "4+ years information security experience (offensive security preferred); experience with cloud platforms (AWS, GCP, Azure), coding in Golang/Python/Java/JavaScript/C++/C; strong communication and documentation skills."
  },
  {
   "id": "ashby___kodex___31e53827-080b-4266-945c-950005486081",
@@ -2285,7 +2332,20 @@
   "comp_min": 177185,
   "comp_max": 364795,
   "posted_at": "2026-06-30T20:25:36.000Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "Envoy proxy",
+   "C++",
+   "Golang",
+   "Python",
+   "Nginx",
+   "Varnish",
+   "Traefik",
+   "CDN",
+   "DNS",
+   "HTTP"
+  ],
+  "requirements_summary": "6+ years in infrastructure/platform/networking with traffic management (CDN, gateways, service mesh). Proficiency in C++, Golang, or Python; experience with Envoy, HTTP proxies, CDN/DNS, distributed systems, and AI-assisted engineering workflows."
  },
  {
   "id": "ashby___subzero___f36ca76a-4fca-4ba4-8a67-c4946d6072db",
@@ -2349,7 +2409,31 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T20:55:13.694Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "Golang",
+   "Java",
+   "Python",
+   "Ruby",
+   "C#",
+   "REST",
+   "gRPC",
+   "protobufs",
+   "NSQ",
+   "Kafka",
+   "PostgreSQL",
+   "MySQL",
+   "GCP",
+   "AWS",
+   "Azure",
+   "Kubernetes",
+   "Terraform",
+   "Helm",
+   "CI/CD",
+   "Stripe",
+   "Braintree"
+  ],
+  "requirements_summary": "10+ years backend engineering experience with Golang (or Java/Python/Ruby/C#), expertise in microservices, distributed systems, relational databases, cloud (GCP/AWS/Azure), Kubernetes, CI/CD, and experience leading large technical projects."
  },
  {
   "id": "ashby___truelogic___dc241793-f0c1-494f-bb90-a017c16fa2cd",
@@ -3005,7 +3089,34 @@
   "comp_min": 150000,
   "comp_max": 200000,
   "posted_at": "2026-06-29T21:07:13.000Z",
-  "search_query": "golang"
+  "search_query": "golang",
+  "technical_tools": [
+   "Go",
+   "Node.js",
+   "Golang",
+   "NodeJS",
+   "TypeScript",
+   "Express",
+   "ClickHouse",
+   "dbt",
+   "DynamoDB",
+   "Redis",
+   "Elasticsearch",
+   "Git",
+   "IDEs",
+   "shell scripting",
+   "CI/CD",
+   "Terraform",
+   "AWS CloudFormation",
+   "Snowflake",
+   "BigQuery",
+   "Redshift",
+   "Databricks",
+   "Datadog",
+   "Docker",
+   "Kubernetes"
+  ],
+  "requirements_summary": "5+ years backend experience with Go and/or Node.js; building scalable APIs, real-time data processing, and microservices. Strong SQL knowledge and experience with DynamoDB, Redis, or Elasticsearch. Proficiency with Git, CI/CD, shell scripting, and English communication."
  },
  {
   "id": "grnhse___perfectserve___6103799004",
@@ -9309,7 +9420,23 @@
   "comp_min": 175000,
   "comp_max": 205000,
   "posted_at": "2026-06-29T13:31:57.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Salesforce",
+   "Iterable",
+   "Twilio",
+   "SQL",
+   "Git",
+   "Salesforce DX",
+   "APIs",
+   "webhooks",
+   "LLM APIs",
+   "Terraform",
+   "Pulumi",
+   "HubSpot",
+   "Segment"
+  ],
+  "requirements_summary": "10+ years in platform/systems/DevOps engineering; experience building cross-system automations and integrations (APIs, webhooks, SQL); Salesforce and GTM platform experience; fluency with LLM APIs and AI-assisted tools."
  },
  {
   "id": "grnhse___innovecs___8585300002",
@@ -9389,7 +9516,30 @@
   "comp_min": 110000,
   "comp_max": 125000,
   "posted_at": "2026-06-30T00:08:18.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "Terraform",
+   "AWS CloudFormation",
+   "AWS CDK",
+   "AWS SDK",
+   "JavaScript",
+   "Node.js",
+   "TypeScript",
+   "Python",
+   "Go",
+   "Shell scripts",
+   "Bitbucket Pipeline",
+   "Jenkins",
+   "GitLab CI",
+   "CircleCI",
+   "Docker",
+   "AWS ECS",
+   "Kubernetes",
+   "Datadog",
+   "AWS X-Ray"
+  ],
+  "requirements_summary": "5+ years DevOps/systems engineering experience with 2+ years in a leadership role; strong AWS, IaC (Terraform, CloudFormation, AWS CDK), CI/CD, containerization, monitoring (Datadog, AWS X-Ray), scripting, and production troubleshooting skills."
  },
  {
   "id": "lever___syw.com___ba49e52b-d7ad-4ee3-9f8d-490fe7dac94a",
@@ -9565,7 +9715,37 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T18:30:06.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Amazon Web Services (AWS & AWS GovCloud)",
+   "Kubernetes (Amazon EKS)",
+   "Docker",
+   "Terraform",
+   "GitHub Actions",
+   "Node.js",
+   "TypeScript",
+   "MongoDB Atlas",
+   "Amazon S3",
+   "IAM",
+   "Lambda",
+   "Secrets Manager",
+   "Route 53",
+   "CloudFront",
+   "Prometheus",
+   "Grafana",
+   "CloudWatch",
+   "OpenSearch",
+   "Linux",
+   "Bash",
+   "GitLab CI",
+   "Jenkins",
+   "CloudFormation",
+   "Argo CD",
+   "Flux",
+   "Python",
+   "JavaScript"
+  ],
+  "requirements_summary": "Bachelor's in CS/IT or equivalent experience; hands-on AWS, Kubernetes/EKS, Docker, Terraform, CI/CD, Linux, scripting (Bash/Python/JS/TypeScript), observability, networking, and security experience."
  },
  {
   "id": "grnhse___seekr___4684124005",
@@ -9613,7 +9793,32 @@
   "comp_min": 100000,
   "comp_max": 120000,
   "posted_at": "2026-07-02T21:45:05.856Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "TypeScript",
+   "Playwright",
+   "JavaScript",
+   "Selenium",
+   "Cucumber",
+   "Postman",
+   "REST-assured",
+   ".NET",
+   "Groovy",
+   "Java",
+   "Jenkins",
+   "Splunk",
+   "JIRA",
+   "Bitbucket",
+   "Confluence",
+   "TestComplete",
+   "Python",
+   "C#",
+   "LoadRunner",
+   "JMeter",
+   "OWASP ZAP",
+   "Fortify"
+  ],
+  "requirements_summary": "5+ years QA experience in Agile environments, expertise with automation and API testing, programming knowledge (.NET, Java, Groovy, Python, C#), CI/CD and DevOps familiarity, bachelor's in CS or equivalent experience."
  },
  {
   "id": "lever___metabase___1b702919-4d0b-4085-baec-8947f9b7e4ee",
@@ -9677,7 +9882,16 @@
   "comp_min": 140000,
   "comp_max": 175000,
   "posted_at": "2026-06-30T19:27:38.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Infrastructure as Code (IaC)",
+   "CI/CD",
+   "Git",
+   "Linux",
+   "Python",
+   "Bash"
+  ],
+  "requirements_summary": "5+ years in software engineering or DevOps with cloud infrastructure, IaC, CI/CD, observability, security (IAM/secrets), incident response, mentoring, Linux, Git, and scripting (Python/Bash); Bachelor's degree preferred."
  },
  {
   "id": "grnhse___smartsheet___7920995",
@@ -9757,7 +9971,22 @@
   "comp_min": 220000,
   "comp_max": 260000,
   "posted_at": "2026-06-29T18:35:53.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Ansible",
+   "Chef",
+   "Puppet",
+   "Docker",
+   "Salt",
+   "Kubernetes",
+   "Git",
+   "GitHub",
+   "Jenkins",
+   "AWS",
+   "GCP",
+   "Linux"
+  ],
+  "requirements_summary": "BS in CS or related; 5+ years leading SRE/DevOps teams and managing SaaS production; Linux infra; AWS or GCP; containerization (Docker, Kubernetes); automation/config management (Ansible, Chef, Puppet, Salt); CI/CD tools (Git, GitHub, Jenkins); security/SOC2 experience."
  },
  {
   "id": "lever___liatrio___460b92ff-7078-4c7b-9362-49fc29bba70c",
@@ -9869,7 +10098,18 @@
   "comp_min": 142000,
   "comp_max": 196600,
   "posted_at": "2026-07-01T17:48:33.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Kubernetes (EKS)",
+   "AWS",
+   "Terraform",
+   "AWS CDK",
+   "ArgoCD",
+   "Istio",
+   "Envoy",
+   "Cloudflare"
+  ],
+  "requirements_summary": "3+ years operating Kubernetes in production, AWS infrastructure proficiency, experience with Terraform or AWS CDK, GitOps (ArgoCD), Bachelor's in CS/Engineering/Math or equivalent experience, strong incident/SL O focus and cross-team influence."
  },
  {
   "id": "grnhse___upstart___7847341",
@@ -10221,7 +10461,29 @@
   "comp_min": 86000,
   "comp_max": 135000,
   "posted_at": "2026-06-29T20:31:42.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Linux",
+   "Python",
+   "Bash",
+   "Amazon Web Services (AWS)",
+   "EC2",
+   "S3",
+   "RDS",
+   "ELB",
+   "IAM",
+   "CloudWatch",
+   "GitLab",
+   "GitHub",
+   "Bitbucket",
+   "CI/CD",
+   "CloudFormation",
+   "AWS Cloud Development Kit (CDK)",
+   "Ansible",
+   "Puppet",
+   "AWS Fargate"
+  ],
+  "requirements_summary": "4+ years Linux administration, strong Python/Bash scripting, 2+ years AWS (EC2, S3, RDS, ELB, IAM, CloudWatch), GitLab/GitHub/Bitbucket, CI/CD, CloudFormation/CDK/Ansible/Puppet, BS in CS/MIS or equivalent experience, strong communication and troubleshooting."
  },
  {
   "id": "grnhse___endeavourinspiredinfrastructure___4208868009",
@@ -10253,7 +10515,18 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T23:36:13.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Python",
+   "PowerShell",
+   "Bash",
+   "Azure",
+   "AWS",
+   "VMware",
+   "ITIL",
+   "ITSM"
+  ],
+  "requirements_summary": "Bachelor's in IT or related (or equivalent experience) required; 5+ years in operations/DevOps/Cybersecurity, 3+ years leading IT operations; experience with ITSM/ITIL, scripting (Python, PowerShell, Bash), cloud platforms and vendor management."
  },
  {
   "id": "ashby___element84___7a4840f2-d77e-4550-8d7d-129c348d0b87",
@@ -10461,7 +10734,15 @@
   "comp_min": 123840,
   "comp_max": 209520,
   "posted_at": "2026-07-01T21:11:26.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Terraform",
+   "Ansible",
+   "GitLab Environment Toolkit (GET)",
+   "Congregate",
+   "GitLab Flow"
+  ],
+  "requirements_summary": "Experience designing and delivering GitLab reference architectures, migrations, and DevOps/DevSecOps consulting; hands-on with Terraform, Ansible, Congregate, GET; comfortable with remote asynchronous work and up to 25% travel."
  },
  {
   "id": "grnhse___gitlab___8579044002",
@@ -10493,7 +10774,9 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T19:32:13.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [],
+  "requirements_summary": "Experience defining product vision and executing complex multi-team programs; background building analytics/BI or dashboard products for engineering/DevOps users; working knowledge of data infrastructure, data pipelines, APIs, and engineering metrics (DORA, value stream)."
  },
  {
   "id": "grnhse___3redpartners___4201091002",
@@ -11149,7 +11432,13 @@
   "comp_min": 229000,
   "comp_max": 370000,
   "posted_at": "2026-06-30T18:33:54.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "MEDDPIC",
+   "SDKs",
+   "LinkedIn"
+  ],
+  "requirements_summary": "7+ years enterprise closing sales experience, strong technical understanding of DevOps/developer workflows, proven quota attainment, consultative selling to executive stakeholders, experience with Land & Expand SaaS and MEDDPIC preferred."
  },
  {
   "id": "grnhse___launchdarkly___7749034003",
@@ -12221,7 +12510,22 @@
   "comp_min": 165000,
   "comp_max": 185000,
   "posted_at": "2026-06-30T19:31:27.824Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "PostgreSQL",
+   "Amazon Aurora",
+   "JavaScript",
+   "TypeScript",
+   "Node.js",
+   "Terraform",
+   "Terragrunt",
+   "Prisma",
+   "Docker",
+   "Kubernetes",
+   "Redshift",
+   "CI/CD"
+  ],
+  "requirements_summary": "8+ years in SRE/DevOps/DBA roles; deep PostgreSQL and Amazon Aurora experience; proficiency with JavaScript/TypeScript and Node.js; experience optimizing production databases and building automation; Terraform, Docker/Kubernetes, Prisma, Redshift familiarity a plus."
  },
  {
   "id": "grnhse___ardentmc___7733674",
@@ -13821,7 +14125,25 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T21:48:21.011Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "Terraform",
+   "Pulumi",
+   "CloudFormation",
+   "Datadog",
+   "Grafana",
+   "Prometheus",
+   "OpenTelemetry",
+   "ChatGPT",
+   "GitHub Copilot",
+   "Claude",
+   "Kubernetes",
+   "ECS",
+   "Docker",
+   "PostgreSQL"
+  ],
+  "requirements_summary": "5+ years in platform/SRE/DevOps roles, AWS and IaC experience (Terraform/Pulumi/CloudFormation), CI/CD, observability (Datadog/Grafana/Prometheus/OpenTelemetry), strong software engineering and collaboration skills."
  },
  {
   "id": "ashby___teamworks___3951f154-b6bb-409a-8840-ebf96e0f384e",
@@ -13837,7 +14159,29 @@
   "comp_min": 166036,
   "comp_max": 166036,
   "posted_at": "2026-06-30T18:53:43.165Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS GovCloud",
+   "EKS",
+   "EC2",
+   "RDS/Aurora",
+   "ElastiCache",
+   "S3",
+   "IAM",
+   "Terraform",
+   "Helm",
+   "GitLab CI",
+   "Datadog",
+   "Linux",
+   "RHEL",
+   "Kubernetes",
+   "Ansible",
+   "AWX",
+   "Packer",
+   "Python",
+   "shell scripting"
+  ],
+  "requirements_summary": "3+ years platform/infrastructure/DevOps experience; Linux (RHEL) administration; Kubernetes (EKS), Terraform, GitLab CI; AWS experience; strong cross-functional communication; on-call rotation and Datadog experience."
  },
  {
   "id": "grnhse___ayahealthcare___7991323",
@@ -14125,7 +14469,27 @@
   "comp_min": 150000,
   "comp_max": 170000,
   "posted_at": "2026-06-30T20:39:09.360Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   ".NET",
+   "React",
+   "TypeScript",
+   "RESTful APIs",
+   "MongoDB",
+   "Docker",
+   "Azure DevOps",
+   "Microsoft Graph",
+   "Microsoft Intune",
+   "Microsoft ConfigMgr",
+   "WSUS",
+   "SignalR",
+   "WebSockets",
+   "Redux",
+   "Kubernetes",
+   "Redis",
+   "CI CD"
+  ],
+  "requirements_summary": "8+ years professional software development; strong full-stack experience with .NET, React, and TypeScript; RESTful APIs, MongoDB/NoSQL, Docker, Azure DevOps, CI CD; production ownership and mentoring experience."
  },
  {
   "id": "lever___empassion.com___58e38bca-e9b4-4afe-beac-d33946bedaab",
@@ -14685,7 +15049,20 @@
   "comp_min": 203400,
   "comp_max": 254200,
   "posted_at": "2026-06-30T16:16:07.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "Amazon RDS",
+   "Aurora",
+   "DynamoDB",
+   "Datadog",
+   "CloudWatch",
+   "DevOps Guru",
+   "DB Performance Insights",
+   "Python",
+   "Java"
+  ],
+  "requirements_summary": "Bachelor's degree, 8+ years in database operations or data platforms, deep experience with AWS RDS/Aurora/DynamoDB, monitoring tools (Datadog, CloudWatch, DevOps Guru, DB Performance Insights), Python or Java, CI/CD and IaC familiarity, strong DB internals and performance skills."
  },
  {
   "id": "grnhse___crunchyroll___7985457",
@@ -15277,7 +15654,20 @@
   "comp_min": 145000,
   "comp_max": 230000,
   "posted_at": "2026-07-02T17:45:24.750Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "GitHub",
+   "GitHub Actions",
+   "Terraform",
+   "Python",
+   "Bash",
+   "Linux",
+   "Docker",
+   "C++",
+   "Rust"
+  ],
+  "requirements_summary": "Bachelor's in CS/CE or related, 5+ years DevOps/cloud/CI-CD experience, strong AWS and Terraform skills, proficiency with GitHub Actions, scripting (Python/Bash) and Linux; experience with CI/CD, containers, and embedded systems preferred."
  },
  {
   "id": "lever___bhhc___3817c6f6-eb10-48d2-a878-0d7168752439",
@@ -15357,7 +15747,34 @@
   "comp_min": 151200,
   "comp_max": 176400,
   "posted_at": "2026-07-02T23:30:12.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Kubernetes",
+   "Amazon EKS",
+   "Terraform",
+   "Terragrunt",
+   "ArgoCD",
+   "AWS",
+   "VPC",
+   "IAM",
+   "ALB",
+   "NLB",
+   "S3",
+   "CloudWatch",
+   "Linux",
+   "Shell",
+   "HashiCorp Vault",
+   "Teleport",
+   "Boundary",
+   "BeyondCorp",
+   "MQTT",
+   "Datadog",
+   "Coralogix",
+   "NetFoundry",
+   "OpenZiti",
+   "GitOps"
+  ],
+  "requirements_summary": "5+ years DevOps/platform/cloud infrastructure experience; Kubernetes (EKS) mastery; Terraform and Terragrunt IaC; GitOps (ArgoCD); strong AWS (VPC, IAM, ALB/NLB, S3, CloudWatch); Linux and shell scripting; secrets management (Vault) and observability experience."
  },
  {
   "id": "grnhse___enthought___5177008007",
@@ -15373,7 +15790,19 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T15:09:19.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "Azure",
+   "Python",
+   "JavaScript",
+   "GitHub Actions",
+   "Jenkins",
+   "Terraform",
+   "Linux",
+   "Windows"
+  ],
+  "requirements_summary": "4+ years hands-on DevOps experience; strong Linux, Windows, and network skills; AWS/Azure and container deployment expertise; Python and JavaScript proficiency; CI/CD experience (GitHub Actions, Jenkins, Terraform); team leadership and stakeholder influence."
  },
  {
   "id": "grnhse___impinjexternal___4703548005",
@@ -15645,7 +16074,35 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T20:55:55.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Amazon Web Services (AWS)",
+   "EC2",
+   "CloudFormation",
+   "ECS",
+   "EKS",
+   "VPC",
+   "IAM",
+   "Azure",
+   "VMware",
+   "vSphere",
+   "Docker",
+   "Terraform",
+   "Jenkins",
+   "Git",
+   "Jira",
+   "Python",
+   "C#",
+   ".net",
+   "Postgres",
+   "MS SQL",
+   "Mongo",
+   "PowerShell",
+   "bash",
+   "Office 365",
+   "DeepSpeaq 2.0"
+  ],
+  "requirements_summary": "5+ years DevOps/cloud or bachelor\u2019s degree; experience with AWS, CloudFormation/Terraform, VMware, Docker, Jenkins/Git/Jira, Python and basic C#/.NET; strong scripting, networking, and ITIL knowledge."
  },
  {
   "id": "grnhse___gibsondunn___4251614009",
@@ -15821,7 +16278,27 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T13:11:58.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "Azure DevOps",
+   "Jenkins",
+   "GitLab",
+   "Git",
+   "NuGet",
+   "Maven",
+   "Azure",
+   "AWS",
+   "Docker",
+   "Kubernetes",
+   "Elastic Kubernetes Services",
+   "Azure Kubernetes Service",
+   "Microsoft SQL database platform",
+   "Microsoft Windows Server",
+   "IIS",
+   ".NET framework",
+   "GitOps"
+  ],
+  "requirements_summary": "6+ years architecture experience; CI/CD, containerization, cloud (Azure/AWS), pipelines, monitoring, GitOps, Kubernetes, Docker, and full SDLC experience; strong communication and organization skills."
  },
  {
   "id": "ashby___perk___87a0e6e0-3528-4976-b50f-a5e70d3ae1af",
@@ -16013,7 +16490,24 @@
   "comp_min": 60000,
   "comp_max": 80000,
   "posted_at": "2026-06-30T18:48:50.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "ECS/Fargate",
+   "EKS",
+   "Lambda",
+   "RDS",
+   "S3",
+   "Terraform",
+   "GitHub",
+   "GitHub Actions",
+   "OIDC",
+   "AWS Cost Explorer",
+   "Replit",
+   "Cursor",
+   "Claude Code"
+  ],
+  "requirements_summary": "3+ years operating production AWS workloads, strong Terraform experience, GitHub Actions CI/CD pipeline design, AWS IAM and OIDC knowledge, on-call and incident response experience."
  },
  {
   "id": "ashby___rivianvw.tech___ffc6e51e-7cbd-4222-84ad-31eb2ed847b3",
@@ -16221,7 +16715,20 @@
   "comp_min": 140000,
   "comp_max": 170000,
   "posted_at": "2026-07-01T22:11:38.617Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "AWS",
+   "GCP",
+   "SageMaker",
+   "Vertex AI",
+   "EKS",
+   "GKE",
+   "Python",
+   "Bash",
+   "Go",
+   "Java"
+  ],
+  "requirements_summary": "Engineering leader with hands-on DevSecOps experience across AWS and GCP, CI/CD and IaC expertise, AI infrastructure (GPU/compute provisioning, model serving), cloud security, and scripting in Python/Bash/Go/Java."
  },
  {
   "id": "lever___getzuma___800b8d69-b1e0-4524-a0a7-a5cec8b337b5",
@@ -21965,7 +22472,23 @@
   "comp_min": 148750,
   "comp_max": 201250,
   "posted_at": "2026-06-29T15:50:16.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "Terraform",
+   "Pulumi",
+   "CI/CD",
+   "GitOps",
+   "Linux/Unix",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Helm",
+   "Kustomize",
+   "Containers",
+   "CNCF"
+  ],
+  "requirements_summary": "U.S. citizenship required. Senior platform/DevOps experience with Kubernetes, infra-as-code (Terraform/Pulumi), CI/CD and GitOps, Linux systems, and building/operating shared, always-on environments; strong communication and problem-solving skills."
  },
  {
   "id": "grnhse___defenseunicorns___5169709007",
@@ -22349,7 +22872,30 @@
   "comp_min": 138000,
   "comp_max": 190000,
   "posted_at": "2026-07-02T18:13:38.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Python",
+   "Bash",
+   "REST APIs",
+   "webhooks",
+   "Git",
+   "GitHub",
+   "CI/CD",
+   "JSON",
+   "Okta",
+   "Jamf Pro",
+   "Microsoft Intune",
+   "Google Workspace",
+   "Microsoft 365",
+   "Workato",
+   "Okta Workflows",
+   "AWS",
+   "Lambda",
+   "IAM",
+   "Linux",
+   "GitHub Actions"
+  ],
+  "requirements_summary": "7+ years in IT/platform/infrastructure/DevOps with strong Python/Bash scripting, REST API integrations, identity and endpoint platform experience (Okta, Jamf Pro, Microsoft Intune), and deep knowledge of least-privilege access and Zero Trust."
  },
  {
   "id": "grnhse___charliehealth___6108039004",
@@ -22365,7 +22911,30 @@
   "comp_min": 138000,
   "comp_max": 190000,
   "posted_at": "2026-07-02T18:13:37.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Python",
+   "Bash",
+   "REST APIs",
+   "Webhooks",
+   "JSON",
+   "Git",
+   "GitHub",
+   "CI/CD",
+   "Okta",
+   "Jamf Pro",
+   "Microsoft Intune",
+   "Google Workspace",
+   "Microsoft 365",
+   "Workato",
+   "Okta Workflows",
+   "AWS",
+   "AWS Lambda",
+   "IAM",
+   "Linux",
+   "GitHub Actions"
+  ],
+  "requirements_summary": "7+ years IT/platform/infrastructure/DevOps experience; strong Python or Bash scripting; REST API, webhooks and JSON integrations; identity and endpoint platform experience (Okta, Jamf Pro, Intune, Google Workspace, Microsoft 365); knowledge of Zero Trust, HIPAA and SOC 2."
  },
  {
   "id": "grnhse___precisionaq___6103109004",
@@ -22381,7 +22950,20 @@
   "comp_min": 87500,
   "comp_max": 122500,
   "posted_at": "2026-06-29T14:13:09.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "C#",
+   "JavaScript",
+   "HTML",
+   "CSS",
+   "SQL Server",
+   "ASP.NET",
+   "REST APIs",
+   "T-SQL",
+   "Azure DevOps",
+   "Jira"
+  ],
+  "requirements_summary": "Bachelor's in CS or related, 3+ years enterprise software development, strong C#, JavaScript, HTML/CSS, SQL Server, ASP.NET, REST APIs, T-SQL; Agile experience; Azure DevOps or Jira preferred."
  },
  {
   "id": "grnhse___precisionmedicinegroup___6103764004",
@@ -22397,7 +22979,21 @@
   "comp_min": 87500,
   "comp_max": 122500,
   "posted_at": "2026-06-29T14:16:18.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   ".NET",
+   "C#",
+   "JavaScript",
+   "HTML",
+   "CSS",
+   "SQL Server",
+   "ASP.NET",
+   "T-SQL",
+   "REST APIs",
+   "Azure DevOps",
+   "Jira"
+  ],
+  "requirements_summary": "Bachelor's in CS or related, 3+ years enterprise software experience, strong C#, JavaScript, HTML/CSS, SQL Server, ASP.NET, REST API and T-SQL skills; Agile experience; Azure DevOps or Jira preferred."
  },
  {
   "id": "grnhse___avantiico___4707935005",
@@ -23053,7 +23649,17 @@
   "comp_min": 185000,
   "comp_max": 245000,
   "posted_at": "2026-07-02T22:38:54.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "JavaScript",
+   "Node.js",
+   "TypeScript",
+   "Linux",
+   "Mac",
+   "Terraform",
+   "Azure"
+  ],
+  "requirements_summary": "Strong software engineering experience with JavaScript/Node.js/TypeScript, cloud infrastructure (Azure), Terraform, Linux systems, distributed SaaS platforms, and on-call/service reliability work."
  },
  {
   "id": "grnhse___instacart___8004097",
@@ -23165,7 +23771,26 @@
   "comp_min": 155000,
   "comp_max": 200000,
   "posted_at": "2026-07-02T16:34:14.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Go",
+   "OpenTDF",
+   "gRPC",
+   "REST",
+   "Docker",
+   "Kubernetes",
+   "Helm",
+   "ArgoCD",
+   "Terraform",
+   "GitOps",
+   "Java",
+   "JavaScript",
+   "ConnectRPC",
+   "Open Container Initiative (OCI)",
+   "Python",
+   "Rust"
+  ],
+  "requirements_summary": "5+ years backend engineering experience, strong Go proficiency, experience with distributed systems, Docker/Kubernetes, Terraform, CI/CD/GitOps, and building production-grade services."
  },
  {
   "id": "grnhse___iterable___7984113",
@@ -23469,7 +24094,22 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-03T01:12:09.807Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "GCP",
+   "BigQuery",
+   "Airflow",
+   "Cloud Composer",
+   "Dataflow",
+   "dbt",
+   "Hex",
+   "Python",
+   "Pulumi",
+   "Terraform",
+   "Metaplane",
+   "SQL"
+  ],
+  "requirements_summary": "5+ years building and operating production data pipelines and warehouses; experience with GCP, BigQuery, Airflow, Dataflow, dbt, Python, Hex, Pulumi/Terraform; strong SQL and communication skills."
  },
  {
   "id": "ashby___supabase___ed6cedb1-b9bf-4609-ac5c-c75c33b31bf3",
@@ -23565,7 +24205,15 @@
   "comp_min": 125000,
   "comp_max": 155000,
   "posted_at": "2026-06-30T21:47:11.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Terraform",
+   "Ansible",
+   "AWS",
+   "Linux",
+   "MDM"
+  ],
+  "requirements_summary": "Security-focused engineer with 5+ years implementing security in Linux and AWS, experience with Terraform/Ansible, vulnerability triage, least-privilege access, MDM, pen testing, and strong communication skills."
  },
  {
   "id": "lever___upguard___02fdac5e-b4cb-40bb-a504-1c7ac4583eac",
@@ -23613,7 +24261,33 @@
   "comp_min": 185000,
   "comp_max": 225000,
   "posted_at": "2026-07-02T19:45:05.496Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Kubernetes",
+   "Elasticsearch",
+   "Helm",
+   "GitOps",
+   "Go",
+   "Python",
+   "Java",
+   "TypeScript",
+   "Docker",
+   "EKS",
+   "GKE",
+   "AKS",
+   "Terraform",
+   "Argo CD",
+   "Flux",
+   "Istio",
+   "Linkerd",
+   "Temporal",
+   "Airflow",
+   "Prometheus",
+   "Grafana",
+   "OpenTelemetry",
+   "ELK"
+  ],
+  "requirements_summary": "10+ years backend experience; 3+ years running production Kubernetes; experience with Elasticsearch, distributed systems, Docker, cloud-managed Kubernetes, Terraform; proficiency in Go, Python, Java, or TypeScript."
  },
  {
   "id": "grnhse___chime___8584112002",
@@ -23661,7 +24335,37 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T21:08:50.214Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Airflow",
+   "Snowflake",
+   "dbt",
+   "Kubernetes",
+   "EKS",
+   "Terraform",
+   "SQL",
+   "Python",
+   "PostgreSQL",
+   "Debezium",
+   "Datadog",
+   "AWS",
+   "RDS",
+   "S3",
+   "Helm",
+   "Amazon Redshift",
+   "Kafka",
+   "Flink",
+   "Iceberg",
+   "Delta Lake",
+   "Elixir",
+   "Erlang",
+   "Great Expectations",
+   "Soda",
+   "Monte Carlo",
+   "DataHub",
+   "OpenMetadata"
+  ],
+  "requirements_summary": "5+ years in data engineering building production data platforms; deep Snowflake, dbt, Airflow, SQL, Python, Terraform, Kubernetes/EKS, Datadog, PostgreSQL, Debezium and AWS experience required."
  },
  {
   "id": "ashby___truelogic___633aec0f-7211-44ae-9d95-32a1f4c4d91b",
@@ -23677,7 +24381,37 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T21:05:07.576Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Apache Airflow",
+   "Snowflake",
+   "dbt",
+   "Kubernetes",
+   "EKS",
+   "Terraform",
+   "SQL",
+   "Python",
+   "PostgreSQL",
+   "Debezium",
+   "Datadog",
+   "AWS",
+   "RDS",
+   "S3",
+   "Amazon Redshift",
+   "Kafka",
+   "Flink",
+   "Iceberg",
+   "Delta Lake",
+   "Elixir",
+   "Erlang",
+   "Great Expectations",
+   "Soda",
+   "Monte Carlo",
+   "DataHub",
+   "OpenMetadata",
+   "Helm"
+  ],
+  "requirements_summary": "5+ years in data engineering or combined data+infrastructure roles; deep Snowflake, dbt, Airflow, SQL, and Python experience; Kubernetes/EKS, Terraform, Datadog, PostgreSQL, Debezium, and AWS familiarity required."
  },
  {
   "id": "ashby___truelogic___9868decd-f61f-4f15-86d8-db48bc91e741",
@@ -23709,7 +24443,33 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T19:25:35.730Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "C#",
+   ".NET",
+   ".NET Core",
+   "Entity Framework",
+   "Angular",
+   "AWS",
+   "Azure",
+   "SQL Server",
+   "PostgreSQL",
+   "NoSQL",
+   "DocumentDB",
+   "Claude Code",
+   "Cursor",
+   "GitHub Copilot",
+   "LLMs",
+   "RAG",
+   "MCP",
+   "GraphQL",
+   "Kubernetes",
+   "Terraform",
+   "CloudWatch",
+   "Datadog",
+   "New Relic"
+  ],
+  "requirements_summary": "12+ years software engineering with 5+ years as architect/technical leader; expert C#, .NET Core, Entity Framework, Angular; experience with microservices, DDD, CQRS, event-driven SaaS; AWS/Azure; SQL Server/PostgreSQL/NoSQL; daily use of AI-assisted dev tools; strong English."
  },
  {
   "id": "grnhse___pluspower___4694192006",
@@ -23725,7 +24485,24 @@
   "comp_min": 150000,
   "comp_max": 150000,
   "posted_at": "2026-07-02T19:09:03.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "AWS",
+   "VPC",
+   "IAM",
+   "EKS",
+   "ECS",
+   "RDS",
+   "S3",
+   "Terraform",
+   "CloudFormation",
+   "Docker",
+   "Kubernetes",
+   "CI/CD",
+   "Git"
+  ],
+  "requirements_summary": "5+ years platform/backend/data/platform engineering experience; strong AWS, Terraform, Docker/Kubernetes, Python, CI/CD, and observability experience; experience with data platforms and relational databases."
  },
  {
   "id": "grnhse___stackblitz___4254238009",
@@ -23741,7 +24518,16 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T20:55:03.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "GCP",
+   "Azure",
+   "Terraform",
+   "TypeScript",
+   "Ruby on Rails"
+  ],
+  "requirements_summary": "Significant SRE/production engineering experience across multi-cloud (AWS/GCP/Azure), Terraform, TypeScript and Ruby on Rails; strong software engineering, technical leadership, and incident management skills."
  },
  {
   "id": "grnhse___dhigroupinc___7771723003",
@@ -23837,7 +24623,24 @@
   "comp_min": 177000,
   "comp_max": 208283,
   "posted_at": "2026-06-29T13:49:52.770Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Google Cloud",
+   "Salesforce",
+   "Terraform",
+   "Kubernetes",
+   "CI/CD",
+   "VPC Service Controls",
+   "Cloud Armor",
+   "Cloud IDS",
+   "Cloud NGFW Enterprise",
+   "Network Connectivity Center",
+   "Partner Interconnect",
+   "HA VPN",
+   "IAM",
+   "Organization Policies"
+  ],
+  "requirements_summary": "10+ years cloud engineering experience; expert in Google Cloud; strong Terraform, Kubernetes, CI/CD, cloud security, hybrid connectivity, observability, and platform reliability; technical leadership and delivery experience."
  },
  {
   "id": "lever___egen___04ed6a6b-541c-4b92-a15f-83d00fe494ee",
@@ -23965,7 +24768,16 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T23:17:59.064Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Google Cloud Platform",
+   "Terraform",
+   "Pulumi",
+   "CI/CD",
+   "TypeScript",
+   "IAM"
+  ],
+  "requirements_summary": "Production experience with Google Cloud Platform, IAM, infrastructure as code (Terraform/Pulumi), CI/CD, observability, and backend development (TypeScript preferred). Strong reliability, operational excellence, and developer experience focus."
  },
  {
   "id": "ashby___gc-ai___d17384ec-23de-4d41-b350-10e931c86bbf",
@@ -24061,7 +24873,23 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T18:38:42.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "dbt",
+   "SQL",
+   "Terraform",
+   "Node.js",
+   "TypeScript",
+   "GraphQL",
+   "React",
+   "Snowflake",
+   "AWS",
+   "Apache Airflow",
+   "Looker",
+   "Python",
+   "GitHub"
+  ],
+  "requirements_summary": "Experienced data engineer with strong ELT pipeline design, advanced dbt and SQL skills, Terraform experience, familiarity with Node.js/TypeScript/GraphQL/React, on-call support experience, and Upper-Intermediate English."
  },
  {
   "id": "grnhse___phdata___7273045",
@@ -24333,7 +25161,20 @@
   "comp_min": 238285,
   "comp_max": 316000,
   "posted_at": "2026-06-29T14:33:30.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "Lambda",
+   "API Gateways",
+   "DynamoDB",
+   "RDS",
+   "CloudWatch",
+   "Terraform",
+   "GitHub Actions",
+   "Databricks",
+   "Snowflake"
+  ],
+  "requirements_summary": "Bachelor's in CS or related, 5+ years technical leadership managing software teams, expertise with AWS serverless, Terraform, CI/CD (GitHub Actions), and data warehouses (Databricks or Snowflake); security/privacy experience."
  },
  {
   "id": "grnhse___babylist___6015140004",
@@ -24365,7 +25206,27 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T16:48:35.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Ruby on Rails",
+   "AWS",
+   "Sidekiq",
+   "MySQL",
+   "Redis",
+   "Terraform",
+   "EKS",
+   "RDS",
+   "Kubernetes",
+   "CircleCI",
+   "GitHub Actions",
+   "Datadog",
+   "Sentry",
+   "PagerDuty",
+   "Cronitor",
+   "Claude",
+   "ChatGPT"
+  ],
+  "requirements_summary": "Hands-on Terraform expertise, proven AWS experience (EKS, RDS, networking, CDNs), production Kubernetes operation, CI/CD design, observability and alerting, on-call/incident management, cross-functional developer support, familiarity with AI tooling."
  },
  {
   "id": "ashby___scribe___d449a0a3-8850-4e2b-8dda-9ce374c7fc04",
@@ -24381,7 +25242,22 @@
   "comp_min": 180000,
   "comp_max": 280000,
   "posted_at": "2026-06-30T16:28:43.705Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "EKS",
+   "Route 53",
+   "Cloudflare",
+   "Kubernetes",
+   "Terraform",
+   "GitOps",
+   "IPv6",
+   "BGP",
+   "IPAM",
+   "TCP/IP",
+   "DNS"
+  ],
+  "requirements_summary": "Deep, hands-on AWS networking experience, IPv6 and Kubernetes (EKS) networking, VPC/IPAM design, BGP/DNS/TCP-IP fundamentals, Terraform and GitOps proficiency, and experience setting technical direction across teams."
  },
  {
   "id": "ashby___upguard___9cf8d345-4818-48fd-9ef9-11b2abb27be1",
@@ -24525,7 +25401,21 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T13:13:00.114Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "C#",
+   ".NET Core",
+   "ASP.NETCore",
+   "CosmosDB",
+   "Kubernetes",
+   "Terraform",
+   "CI/CD",
+   "Microsoft SQL",
+   "Microsoft Azure",
+   "AWS",
+   "GCP"
+  ],
+  "requirements_summary": "5+ years software engineering experience with C#, .NET Core, MS SQL and microservice architectures; experience with cloud platforms (Azure/AWS/GCP), Kubernetes, Terraform, CI/CD; BS/MS in CS or related field; mentoring experience."
  },
  {
   "id": "ashby___1password___13776460-11f2-4a46-b638-e5a2fa3718b0",
@@ -24589,7 +25479,33 @@
   "comp_min": 165000,
   "comp_max": 216000,
   "posted_at": "2026-06-29T14:54:46.512Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "CloudFormation",
+   "EC2",
+   "RDS",
+   "ElastiCache",
+   "Ruby",
+   "Python",
+   "Bash",
+   "NodeJS",
+   "New Relic",
+   "Nagios",
+   "CloudWatch",
+   "Confluence",
+   "Kubernetes",
+   "Terraform",
+   "Helm",
+   "Docker",
+   "Argo CD",
+   "Kafka",
+   "Zookeeper",
+   "Postgres",
+   "Go",
+   "Chef"
+  ],
+  "requirements_summary": "Bachelor's degree and 5+ years AWS cloud experience, 3+ years Kubernetes, proficiency with Python and Go, Terraform/Helm, Docker, Kafka/Postgres, monitoring tools, and mentoring experience. Must be authorized to work in the U.S."
  },
  {
   "id": "ashby___sandboxaq___6920f48a-e6e3-4b80-9503-37d1ef178627",
@@ -24717,7 +25633,24 @@
   "comp_min": 119900,
   "comp_max": 193200,
   "posted_at": "2026-06-30T15:41:09.448Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Kubernetes",
+   "Terraform",
+   "Pulumi",
+   "Ansible",
+   "GCP",
+   "AWS",
+   "Azure",
+   "GitHub Actions",
+   "Jenkins",
+   "Python",
+   "Groovy",
+   "Go",
+   "JS",
+   "Java"
+  ],
+  "requirements_summary": "Production Kubernetes, IaC (Terraform/Pulumi/Ansible), cloud (GCP/AWS/Azure), high-scale CI (GitHub Actions/Jenkins), programming in Python/Groovy/Go/JS/Java, remote collaboration and developer-experience mindset."
  },
  {
   "id": "ashby___camunda___21481c01-6c1f-4a79-be9b-2c7561c73a51",
@@ -24733,7 +25666,20 @@
   "comp_min": 172600,
   "comp_max": 278300,
   "posted_at": "2026-06-30T15:40:25.162Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "GCP",
+   "AWS",
+   "Kubernetes",
+   "Terraform",
+   "ArgoCD",
+   "GitHub Actions",
+   "CI/CD",
+   "Python",
+   "Remote.com",
+   "Modern Health"
+  ],
+  "requirements_summary": "People leadership experience, senior-level technical depth in cloud (GCP/AWS), Kubernetes, IaC (Terraform/ArgoCD), scaling CI/CD (e.g., GitHub Actions), backend development (Python), and experience building high-leverage remote platform teams."
  },
  {
   "id": "ashby___cytora.com___7ec26d03-d3e5-44fc-8cc0-c647a18fe58d",
@@ -24861,7 +25807,25 @@
   "comp_min": 150000,
   "comp_max": 230000,
   "posted_at": "2026-06-29T14:52:58.296Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Databricks",
+   "Databricks Lakehouse",
+   "Unity Catalog",
+   "Databricks SQL",
+   "Delta Lake",
+   "Databricks Workflows",
+   "Databricks Apps",
+   "Genie",
+   "Ontology",
+   "Terraform",
+   "Databricks Asset Bundles",
+   "CI/CD",
+   "dbt",
+   "Python",
+   "SQL"
+  ],
+  "requirements_summary": "Senior IC data/platform engineer with experience building and operating Databricks Lakehouse platforms, data pipelines, governance (Unity Catalog), SQL and Python proficiency, metadata and observability practices, and platform automation."
  },
  {
   "id": "grnhse___solutions___4689794006",
@@ -25037,7 +26001,26 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T19:37:30.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Terraform",
+   "CloudFormation",
+   "AWS",
+   "Azure",
+   "Python",
+   "Bash",
+   "PowerShell",
+   "Git",
+   "CI/CD",
+   "Docker",
+   "Podman",
+   "LXC",
+   "Claude",
+   "Copilot",
+   "SIEM",
+   "IAM"
+  ],
+  "requirements_summary": "5+ years platform/cloud/SRE experience, advanced AWS/Azure knowledge, Terraform/CloudFormation, Python/Bash/PowerShell, Git, CI/CD, containerization (Docker/Podman/LXC), generative AI (Claude/Copilot), and a Bachelor\u2019s in a related field."
  },
  {
   "id": "grnhse___accela___8010437",
@@ -25101,7 +26084,30 @@
   "comp_min": 139000,
   "comp_max": 181500,
   "posted_at": "2026-06-30T09:26:01.110Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS Lambda",
+   "AWS Fargate",
+   "AWS Step Functions",
+   "Kinesis",
+   "S3",
+   "DynamoDB",
+   "Aurora",
+   "Snowflake",
+   "dbt",
+   "Terraform",
+   "CDK",
+   "SQL",
+   "Python",
+   "Airflow",
+   "Dagster",
+   "Prefect",
+   "Kafka",
+   "Docker",
+   "Git",
+   "CI/CD"
+  ],
+  "requirements_summary": "3+ years senior/staff-level data or backend engineering; deep AWS, Snowflake, dbt, Terraform/CDK, SQL, Python; experience with Airflow/Dagster/Prefect, Kafka/Kinesis, Docker, Git, CI/CD; architecture and mentorship experience."
  },
  {
   "id": "ashby___clickup___3dddfea4-7c61-4a98-85a7-c9ea230791ca",
@@ -25117,7 +26123,47 @@
   "comp_min": 160000,
   "comp_max": 210000,
   "posted_at": "2026-06-29T16:59:39.389Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "TypeScript",
+   "Node.js",
+   "Python",
+   "Bedrock",
+   "Lambda",
+   "ECS/Fargate",
+   "API Gateway",
+   "AWS Bedrock AgentCore",
+   "Model Context Protocol (MCP)",
+   "Okta",
+   "PKCE",
+   "RBAC",
+   "CloudWatch",
+   "IAM",
+   "Secrets Manager",
+   "GCP Cloud Run",
+   "BigQuery",
+   "Cloud Functions",
+   "OpenAI",
+   "Anthropic",
+   "React",
+   "Next.js",
+   "LangGraph",
+   "CrewAI",
+   "AutoGen",
+   "Claude",
+   "Cursor",
+   "GitHub Copilot",
+   "Terraform",
+   "CDK",
+   "SAM",
+   "Salesforce",
+   "HubSpot",
+   "OAuth 2.0",
+   "OIDC",
+   "SCIM",
+   "CI/CD"
+  ],
+  "requirements_summary": "5+ years engineering experience; expert TypeScript and Node.js; strong Python; AWS deployment experience (Lambda, Bedrock, ECS/Fargate, API Gateway); LLM API integration; REST, OAuth 2.0/OIDC, Okta; CI/CD and IaC (Terraform, CDK, SAM); strong written communication and AI fluency."
  },
  {
   "id": "grnhse___rithum___8016565",
@@ -25149,7 +26195,34 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T22:42:19.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Snyk",
+   "SonarQube",
+   "AWS Inspector",
+   "Claude Code",
+   "GitHub Copilot",
+   "Atlassian Rovo",
+   "Terraform",
+   "Bitbucket Pipelines",
+   "Python",
+   "Bash",
+   "DuploCloud",
+   "Grafana",
+   "CloudWatch",
+   "GuardDuty",
+   "EKS",
+   "EC2",
+   "S3",
+   "RDS",
+   "Lambda",
+   "Docker",
+   "Kubernetes",
+   "Git",
+   "Jira",
+   "OWASP"
+  ],
+  "requirements_summary": "4+ years cloud experience (AWS preferred), deep AWS and CI/CD security experience, hands-on with Snyk/SonarQube/AWS Inspector, Terraform, Bitbucket Pipelines, Python/Bash scripting, Grafana, and demonstrated vulnerability management and mentoring skills."
  },
  {
   "id": "lever___redoxengine___f4a11b80-0861-4257-91af-9879f8bd380a",
@@ -25181,7 +26254,18 @@
   "comp_min": 213512,
   "comp_max": 220000,
   "posted_at": "2026-06-29T21:38:07.461Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "C",
+   "C++",
+   "Rust",
+   "JSON-RPC",
+   "gRPC",
+   "Terraform",
+   "Kubernetes",
+   "GitHub Actions"
+  ],
+  "requirements_summary": "Master's degree required, 10+ years systems/software engineering experience. Expertise in systems programming (C, C++, Rust), low-level performance optimization, distributed systems, CI/CD (GitHub Actions), Terraform/Kubernetes, and benchmarking/profiling."
  },
  {
   "id": "ashby___virtuous___c15860ec-0589-468f-9b1b-4db726df6cf7",
@@ -25261,7 +26345,20 @@
   "comp_min": 198000,
   "comp_max": 297000,
   "posted_at": "2026-07-02T17:34:01.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "SQL",
+   "Python",
+   "Dbt",
+   "Airflow",
+   "Prefect",
+   "Snowflake",
+   "Databricks",
+   "Github",
+   "Omni",
+   "Terraform"
+  ],
+  "requirements_summary": "10+ years data engineering experience (or 8+ with a Master\u2019s, or equivalent), high proficiency in SQL, Python, and dbt, experience with ETL schedulers (Airflow/Prefect), schema design, data quality/lineage monitoring, and AI/agentic automation."
  },
  {
   "id": "grnhse___guidepointsecurity___6030474004",
@@ -25405,7 +26502,32 @@
   "comp_min": 152926,
   "comp_max": 183518.5,
   "posted_at": "2026-06-30T19:26:12.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Go",
+   "Python",
+   "Rust",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Docker",
+   "Kubernetes",
+   "Kubernetes CNI",
+   "Terraform",
+   "Argo Workflows",
+   "nginx",
+   "Istio",
+   "Envoy",
+   "AWS Transit Gateway",
+   "PrivateLink",
+   "dbt Cloud",
+   "Slack",
+   "VPC",
+   "DNS",
+   "load balancing",
+   "service mesh"
+  ],
+  "requirements_summary": "5+ years platform or backend engineering experience; strong Go or Python expertise; deep cloud infrastructure knowledge (AWS/GCP/Azure), Kubernetes, Terraform, Argo Workflows; experience with cloud networking, service mesh, migrations, and on-call support. Bachelor's preferred."
  },
  {
   "id": "ashby___coder___afb0b507-24ba-4f39-ac51-739e23ce8938",
@@ -25501,7 +26623,38 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T07:35:53.524Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "Bash",
+   "Go",
+   "MLflow",
+   "WandB",
+   "PyTorch",
+   "TensorFlow",
+   "Triton",
+   "TorchServe",
+   "TensorFlow Serving",
+   "KServe",
+   "Kubernetes",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Terraform",
+   "Helm",
+   "GitOps",
+   "Prometheus",
+   "Grafana",
+   "Datadog",
+   "OpenTelemetry",
+   "Kubeflow",
+   "Airflow",
+   "Argo Workflows",
+   "FastAPI",
+   "Databricks",
+   "Snowflake"
+  ],
+  "requirements_summary": "7+ years MLOps experience with 3+ years in technical leadership. Strong Python (Bash/Go), MLflow/WandB, PyTorch/TensorFlow, Triton/TorchServe/KServe, Kubernetes on AWS/GCP/Azure, Terraform/Helm/GitOps, and observability tools (Prometheus, Grafana, Datadog, OpenTelemetry)."
  },
  {
   "id": "ashby___kong___97ddfb66-083f-4ee9-8d85-7372fe20f2a0",
@@ -25693,7 +26846,30 @@
   "comp_min": 120000,
   "comp_max": 155000,
   "posted_at": "2026-07-02T00:35:56.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "AWS Lambda",
+   "API Gateway",
+   "ECS",
+   "S3",
+   "CloudWatch",
+   "IAM",
+   "RDS Aurora",
+   "SNS",
+   "SQS",
+   "MySQL",
+   "DynamoDB",
+   "Sentry",
+   "Slack",
+   "Terraform",
+   "IaC",
+   "Git",
+   "CI/CD",
+   "Jira",
+   "IoTCore"
+  ],
+  "requirements_summary": "Strong Python experience in AWS serverless environments, deep knowledge of AWS services (ECS, Lambda, API Gateway, S3, CloudWatch, IAM, RDS Aurora, SNS, SQS), experience with MySQL and DynamoDB, Terraform/IaC, Git, CI/CD and pipelines, API design, monitoring (Sentry, Slack), and participation in on-call rotation."
  },
  {
   "id": "grnhse___hs___7974975",
@@ -25837,7 +27013,28 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T23:22:46.947Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Pylon",
+   "Slack",
+   "Microsoft Teams",
+   "Python",
+   "TypeScript",
+   "PostgreSQL",
+   "Kubernetes",
+   "EKS",
+   "ECS",
+   "Helm",
+   "Terraform",
+   "CloudWatch",
+   "VPCs",
+   "AWS",
+   "SSO",
+   "SCIM",
+   "OAuth",
+   "MCPs"
+  ],
+  "requirements_summary": "3+ years in technical support or solutions engineering; infrastructure support experience; debugging across stack (Python/TypeScript, PostgreSQL, HTTP, Kubernetes); familiarity with SSO/SCIM/OAuth, AWS (EKS/ECS), and customer-facing tools (Pylon, Slack, Microsoft Teams)."
  },
  {
   "id": "grnhse___ddome___8602251002",
@@ -25901,7 +27098,30 @@
   "comp_min": 180000,
   "comp_max": 220000,
   "posted_at": "2026-07-02T12:50:09.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Kubernetes",
+   "EKS",
+   "AKS",
+   "GKE",
+   "AWS",
+   "Azure",
+   "GCP",
+   "Linux",
+   "Spark",
+   "Hadoop",
+   "Dask",
+   "SAML",
+   "OIDC",
+   "Keycloak",
+   "CI/CD",
+   "Python",
+   "R",
+   "Bash",
+   "Terraform",
+   "Domino"
+  ],
+  "requirements_summary": "5+ years technical experience with 1+ year client-facing consulting; hands-on Kubernetes and cloud experience (AWS/Azure/GCP); Linux, APIs, CI/CD, Python/R; ability to design secure enterprise integrations and architectures."
  },
  {
   "id": "grnhse___kunai___5125076007",
@@ -25949,7 +27169,19 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T15:01:38.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Cast AI",
+   "Kubernetes",
+   "Linux",
+   "Unix",
+   "AWS",
+   "Azure",
+   "GCP",
+   "Terraform",
+   "Checkr"
+  ],
+  "requirements_summary": "3+ years Kubernetes administration experience, strong Linux/Unix skills, experience with a major public cloud (AWS/Azure/GCP), SaaS/support background, strong communication and problem-solving, bachelor's or master's in CS/Engineering."
  },
  {
   "id": "lever___bluesight___8cfd1480-3bb3-49c3-949e-8fe6175cff52",
@@ -25965,7 +27197,32 @@
   "comp_min": 125000,
   "comp_max": 145000,
   "posted_at": "2026-06-30T13:19:53.785Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Java 21",
+   "Spring Boot",
+   "Hibernate/JPA",
+   "PostgreSQL",
+   "Maven",
+   "Python",
+   "FastAPI",
+   "MySQL",
+   "Athena",
+   "SageMaker",
+   "Angular",
+   "React",
+   "TypeScript",
+   "AWS (ECS, RDS, S3, CloudFront)",
+   "ECS Fargate",
+   "Terraform",
+   "AWS Bedrock",
+   "Claude Code",
+   "Cursor",
+   "Copilot",
+   "Datadog",
+   "Datadog APM"
+  ],
+  "requirements_summary": "5+ years full-stack experience; deep Java and Spring Boot, Hibernate/JPA, PostgreSQL; front-end with Angular/React/TypeScript; familiarity with Python; experience with AI coding assistants and Datadog."
  },
  {
   "id": "grnhse___upboundext___6018381004",
@@ -26173,7 +27430,20 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T19:07:35.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "SQL",
+   "Airflow",
+   "dbt",
+   "GCP",
+   "GitHub",
+   "Terraform",
+   "ELT",
+   "CI/CD",
+   "APIs"
+  ],
+  "requirements_summary": "4+ years data engineering experience; strong Python, advanced SQL, Airflow, ELT and data warehouse experience; API integration, dbt, GCP, CI/CD and GitHub familiarity; production ownership and incident response."
  },
  {
   "id": "grnhse___prizepicks___7768364003",
@@ -26221,7 +27491,16 @@
   "comp_min": 150000,
   "comp_max": 203000,
   "posted_at": "2026-06-30T21:05:45.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "Spring Boot",
+   "Angular",
+   "OpenSearch",
+   "Docker",
+   "Terraform"
+  ],
+  "requirements_summary": "Experienced engineer able to build end-to-end frontend and backend software on a cloud-native stack; strong security, data persistence, automated testing, and mentoring skills; U.S. citizenship and successful background check required; work performed within the U.S."
  },
  {
   "id": "grnhse___skylighthq___4710410005",
@@ -26237,7 +27516,20 @@
   "comp_min": 150000,
   "comp_max": 203000,
   "posted_at": "2026-06-29T20:24:13.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "AWS",
+   "Spring Boot",
+   "Angular",
+   "OpenSearch",
+   "CI/CD",
+   "Docker",
+   "Terraform",
+   "Java",
+   "JavaScript",
+   "E-Verify"
+  ],
+  "requirements_summary": "Design, implement, and maintain frontend and backend cloud-native software (AWS, Spring Boot, Angular); build secure, accessible systems; mentor engineers; must be U.S.-based and U.S. citizen eligible for background check."
  },
  {
   "id": "ashby___lambda___aedcfc9e-c2ad-4e69-8962-1ffe1f455ba1",
@@ -26365,7 +27657,27 @@
   "comp_min": 174986,
   "comp_max": 209983,
   "posted_at": "2026-07-02T21:20:30.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Go",
+   "Python",
+   "Shell",
+   "Kubernetes",
+   "Karpenter",
+   "Terraform",
+   "Crossplane",
+   "Tanka",
+   "Jsonnet",
+   "Grafana",
+   "Mimir",
+   "Loki",
+   "Tempo",
+   "Pyroscope",
+   "GPT-Codex 5/3",
+   "Claude Opus 4.6",
+   "Gemini 3 Pro"
+  ],
+  "requirements_summary": "Proven experience designing and operating large distributed systems, cloud-native platform expertise (Kubernetes, containers, IaC), strong coding and system-design skills, SLO/SLI and reliability ownership, excellent communication in remote teams."
  },
  {
   "id": "grnhse___grafanalabs___6108293004",
@@ -26381,7 +27693,27 @@
   "comp_min": 186368,
   "comp_max": 223642,
   "posted_at": "2026-07-02T21:20:31.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Grafana",
+   "Mimir",
+   "Loki",
+   "Tempo",
+   "Pyroscope",
+   "Go",
+   "Python",
+   "Shell",
+   "Kubernetes",
+   "Karpenter",
+   "Terraform",
+   "Crossplane",
+   "Tanka",
+   "Jsonnet",
+   "GPT-Codex 5/3",
+   "Claude Opus 4.6",
+   "Gemini 3 Pro"
+  ],
+  "requirements_summary": "Proven delivery of large distributed systems, system design expertise, cloud-native and Kubernetes experience, SLO/SLI and reliability ownership, strong coding skills (Go preferred), and effective cross-functional communication."
  },
  {
   "id": "grnhse___grafanalabs___6100672004",
@@ -26429,7 +27761,27 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T15:15:37.054Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "SAML",
+   "SCIM",
+   "OIDC",
+   "Okta",
+   "Google Workspace",
+   "Jamf",
+   "Kandji",
+   "Fleet",
+   "Python",
+   "Bash",
+   "Cisco Meraki",
+   "Ubiquiti",
+   "SOC 2",
+   "ISO 27001",
+   "OSquery",
+   "Santa",
+   "Terraform"
+  ],
+  "requirements_summary": "Lead an IT engineering team with hands-on expertise in IT engineering/technical operations, automation-first mindset, identity and access management (SAML/SCIM/OIDC with Okta/Google Workspace), MDM (Jamf/Kandji/Fleet), scripting (Python, Bash), office networking (Cisco Meraki, Ubiquiti), and SOC 2/ISO 27001 compliance."
  },
  {
   "id": "grnhse___latitude___7963835",
@@ -26493,7 +27845,23 @@
   "comp_min": 169400,
   "comp_max": 242000,
   "posted_at": "2026-07-02T22:59:37.005Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Docker Desktop",
+   "Docker Hub",
+   "Docker Scout",
+   "Kubernetes",
+   "EKS",
+   "CI/CD",
+   "APIs",
+   "Terraform",
+   "GitOps",
+   "Prometheus",
+   "Grafana",
+   "OpenTelemetry",
+   "LLM"
+  ],
+  "requirements_summary": "10+ years product management with 4+ years at staff level, strong technical knowledge of Kubernetes/CI/CD/networking/APIs/observability, familiarity with LLMs and AI agent workflows, excellent stakeholder management and strategic thinking."
  },
  {
   "id": "grnhse___hungryroot___6104021004",
@@ -26509,7 +27877,24 @@
   "comp_min": 160000,
   "comp_max": 180000,
   "posted_at": "2026-06-29T21:08:01.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "Django",
+   "Flask",
+   "FastAPI",
+   "SQL",
+   "AWS",
+   "Datadog",
+   "CloudWatch",
+   "Claude Code",
+   "Terraform",
+   "Docker",
+   "Celery",
+   "Dyrygent",
+   "React"
+  ],
+  "requirements_summary": "5+ years software development experience, 3+ years Python, backend services with Django/Flask/FastAPI, strong SQL, AWS production experience, observability tooling, on-call participation, and technical leadership on cross-team projects."
  },
  {
   "id": "ashby___tempo-io___f71fd16c-bacb-4e90-9568-fcf9eea98a64",
@@ -26749,7 +28134,34 @@
   "comp_min": 160000,
   "comp_max": 245000,
   "posted_at": "2026-06-30T22:04:05.969Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Go",
+   "React",
+   "TypeScript",
+   "Google Cloud Platform",
+   "Postgres",
+   "Redis",
+   "Pub/Sub",
+   "Kubernetes",
+   "Cloud Run",
+   "Terraform",
+   "OpenAPI",
+   "LLMs",
+   "ML models",
+   "BigQuery",
+   "ClickHouse",
+   "Snowflake",
+   "dbt",
+   "Ent",
+   "Connect RPC",
+   "Protocol Buffers",
+   "Pulumi",
+   "GKE",
+   "GitLab APIs",
+   "Google Cloud APIs"
+  ],
+  "requirements_summary": "6+ years as a software engineer; strong production backend experience in Go; PostgreSQL and event-driven system experience; experience shipping production AI/LLM features; comfortable on small teams owning systems."
  },
  {
   "id": "lever___h1___812a0b29-ce83-405d-9438-3073f969936f",
@@ -26877,7 +28289,35 @@
   "comp_min": 130000,
   "comp_max": 175000,
   "posted_at": "2026-07-02T18:45:12.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Okta",
+   "Google Workspace",
+   "Jamf",
+   "Intune",
+   "SentinelOne",
+   "Wiz",
+   "AWS",
+   "Jira",
+   "Confluence",
+   "Slack",
+   "Vanta",
+   "Drata",
+   "Secureframe",
+   "AuditBoard",
+   "Archer",
+   "ServiceNow GRC",
+   "Python",
+   "Bash",
+   "PowerShell",
+   "Workato",
+   "Terraform",
+   "REST APIs",
+   "webhooks",
+   "JSON",
+   "SQL"
+  ],
+  "requirements_summary": "5+ years in GRC/security engineering or related technical discipline; hands-on experience translating compliance into automated controls; familiarity with HIPAA, SOC 2, NIST, ISO 27001; scripting and API automation experience; strong cross-functional communication."
  },
  {
   "id": "ashby___dave___061e0fe9-37a6-4f38-b056-dd0b5973b57f",
@@ -26909,7 +28349,31 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T23:59:28.839Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Python",
+   "Flask",
+   "Go",
+   "LangGraph",
+   "LangChain",
+   "LangSmith",
+   "Model Context Protocol (MCP)",
+   "Anthropic",
+   "OpenAI",
+   "Google",
+   "MongoDB",
+   "Redis",
+   "S3",
+   "REST",
+   "WebSockets",
+   "SSE",
+   "Docker",
+   "AWS",
+   "GCP",
+   "Terraform",
+   "GitLab CI/CD"
+  ],
+  "requirements_summary": "4+ years software engineering experience with production LLM/agent features; strong Python; experience with agentic systems (LangChain/LangGraph), prompt engineering, observability, API design, and remote communication."
  },
  {
   "id": "grnhse___alphasense___8538758002",
@@ -26973,7 +28437,31 @@
   "comp_min": 158000,
   "comp_max": 257000,
   "posted_at": "2026-07-01T20:48:49.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Kinesis",
+   "Airflow",
+   "Spark",
+   "Lambda",
+   "Flink",
+   "Athena",
+   "ClickHouse",
+   "Postgres",
+   "Elasticsearch",
+   "Glue",
+   "Iceberg",
+   "S3",
+   "Terraform",
+   "Datadog",
+   "Kafka",
+   "Redshift",
+   "Databricks",
+   "Go",
+   "Python",
+   "SQL",
+   "Scala"
+  ],
+  "requirements_summary": "6+ years backend engineering experience with distributed/data-intensive systems; experience with streaming/batch pipelines, analytical data stores, infrastructure-as-code, observability, and production ownership."
  },
  {
   "id": "grnhse___mntn___8029744",
@@ -26989,7 +28477,26 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T16:00:58.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Terraform",
+   "Kubernetes",
+   "CI/CD",
+   "ArgoCD",
+   "Github",
+   "SIEM",
+   "Python",
+   "Bash",
+   "AWS",
+   "GCP",
+   "MITRE ATT&CK",
+   "NIST",
+   "ISO",
+   "EDR",
+   "IDS/IPS",
+   "firewalls"
+  ],
+  "requirements_summary": "5+ years in security operations with SIEM, incident response, cloud security (AWS/GCP), scripting (Python/Bash), threat detection, forensic analysis, and experience leading security initiatives."
  },
  {
   "id": "grnhse___marqeta___8015885",
@@ -27005,7 +28512,20 @@
   "comp_min": 174700,
   "comp_max": 218400,
   "posted_at": "2026-07-02T22:09:28.000Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Java",
+   "Python",
+   "MySQL",
+   "Postgres",
+   "MS SQL Server",
+   "Oracle",
+   "AWS",
+   "Kubernetes",
+   "Docker",
+   "Terraform"
+  ],
+  "requirements_summary": "8+ years backend engineering with system design and architecture experience, 3+ years payments/FinTech preferred, expertise in backend technologies and relational databases, experience with distributed systems, strong communication and leadership skills."
  },
  {
   "id": "ashby___sciencelogic___e7170437-1ccf-4e0c-9763-5cf1a4ba6051",
@@ -27101,7 +28621,24 @@
   "comp_min": 165000,
   "comp_max": 195000,
   "posted_at": "2026-06-30T21:36:39.406Z",
-  "search_query": "terraform engineer"
+  "search_query": "terraform engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "GCP",
+   "Helm",
+   "Terraform",
+   "DataDog",
+   "Argo",
+   "ArgoCD",
+   "CircleCI",
+   "Atlantis",
+   "Docker",
+   "DORA",
+   "GraphQL",
+   "AWS",
+   "Azure"
+  ],
+  "requirements_summary": "Experienced distributed systems engineer with systems expertise, Kubernetes/GCP/Terraform and CI/CD tool experience, on-call participation, data-driven decision making, and ability to lead cross-organizational features."
  },
  {
   "id": "ashby___apollo-graphql___af081db2-9d58-4525-8227-b5e6d800e72a",
@@ -27197,7 +28734,29 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T19:24:49.705Z",
-  "search_query": "terraform engineer"
+  "search_query": "terraform engineer",
+  "technical_tools": [
+   "C#",
+   ".NET",
+   ".NET Core",
+   "Entity Framework",
+   "Angular",
+   "AWS",
+   "Azure",
+   "SQL Server",
+   "PostgreSQL",
+   "DocumentDB",
+   "Claude Code",
+   "Cursor",
+   "GitHub Copilot",
+   "GraphQL",
+   "Kubernetes",
+   "Terraform",
+   "CloudWatch",
+   "Datadog",
+   "New Relic"
+  ],
+  "requirements_summary": "12+ years software engineering (5+ as architect), expert C#, .NET Core, Entity Framework, Angular, cloud (AWS/Azure), databases, AI-assisted tooling; strong architecture, DDD/CQRS, microservices, and English communication."
  },
  {
   "id": "grnhse___clickhouse___5989607004",
@@ -27277,7 +28836,24 @@
   "comp_min": 116640,
   "comp_max": 162000,
   "posted_at": "2026-06-30T23:08:20.000Z",
-  "search_query": "terraform engineer"
+  "search_query": "terraform engineer",
+  "technical_tools": [
+   "Python",
+   "Go",
+   "SQL",
+   "MySQL",
+   "Postgres",
+   "Snowflake",
+   "BigQuery",
+   "Docker",
+   "OCI",
+   "Terraform",
+   "Kubernetes",
+   "dbt",
+   "Airflow",
+   "Looker"
+  ],
+  "requirements_summary": "3+ years building production services with data engineering experience; proficiency in Python or Go, SQL, cloud/container tooling, Terraform, Kubernetes, and modern data stack tools; strong communication and quality mindset."
  },
  {
   "id": "grnhse___pantheon___8017937",
@@ -27373,7 +28949,35 @@
   "comp_min": 130000,
   "comp_max": 175000,
   "posted_at": "2026-07-02T18:45:11.000Z",
-  "search_query": "terraform engineer"
+  "search_query": "terraform engineer",
+  "technical_tools": [
+   "Okta",
+   "Google Workspace",
+   "Jamf",
+   "Intune",
+   "SentinelOne",
+   "Wiz",
+   "AWS",
+   "Jira",
+   "Confluence",
+   "Slack",
+   "Vanta",
+   "Drata",
+   "Secureframe",
+   "AuditBoard",
+   "Archer",
+   "ServiceNow GRC",
+   "Python",
+   "Bash",
+   "PowerShell",
+   "Workato",
+   "Terraform",
+   "REST APIs",
+   "webhooks",
+   "JSON",
+   "SQL"
+  ],
+  "requirements_summary": "5+ years in GRC/security engineering; hands-on experience building automated controls, continuous control monitoring, audit evidence pipelines; familiarity with HIPAA, SOC 2, NIST, ISO 27001 and enterprise systems."
  },
  {
   "id": "grnhse___itero-group___5267885008",
@@ -27485,7 +29089,45 @@
   "comp_min": 175750,
   "comp_max": 219687,
   "posted_at": "2026-06-29T19:38:14.472Z",
-  "search_query": "terraform engineer"
+  "search_query": "terraform engineer",
+  "technical_tools": [
+   "Java",
+   "C/C++",
+   "JRebel",
+   "Linux",
+   "RHEL",
+   "Rocky",
+   "Debian",
+   "SLES",
+   "Kubernetes",
+   "Kafka",
+   "Elasticsearch",
+   "Redis",
+   "Vault",
+   "Tomcat",
+   "ActiveMQ",
+   "Apache Camel",
+   "AWS",
+   "Azure",
+   "Jenkins",
+   "GitHub Actions",
+   "GitLab CI",
+   "Ansible",
+   "Terraform",
+   "Nexus/Artifactory",
+   "Docker",
+   "Podman",
+   "OpenShift",
+   "Vagrant",
+   "KVM/QEMU",
+   "Proxmox",
+   "TotalView",
+   "PostgreSQL",
+   "MySQL",
+   "MongoDB",
+   "Cassandra"
+  ],
+  "requirements_summary": "BS/MS in Computer Science or equivalent, 5+ years in a customer-facing technical role; hands-on Java/C/C++, strong Linux, cloud and CI/CD experience, containerization, SQL/NoSQL familiarity, demo and proposal skills."
  },
  {
   "id": "grnhse___doppel___4289119009",
@@ -27645,7 +29287,24 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T16:48:27.000Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "Java",
+   "Go",
+   "Python",
+   "Kubernetes",
+   "GCP",
+   "AWS",
+   "Azure",
+   "Grafana",
+   "Datadog",
+   "New Relic",
+   "Signoz",
+   "SQL",
+   "PostgreSQL",
+   "MySQL"
+  ],
+  "requirements_summary": "3+ years SRE experience with coding in Java, Go, or Python; Kubernetes and cloud (GCP/AWS/Azure) experience; Grafana and APM tooling; SQL proficiency; strong communication and incident management skills."
  },
  {
   "id": "grnhse___moniepoint___4915166101",
@@ -27661,7 +29320,29 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T16:50:44.000Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "Java",
+   "Go",
+   "Python",
+   "Rust",
+   "Google Cloud Platform (GCP)",
+   "AWS",
+   "Azure",
+   "Kubernetes",
+   "GKE",
+   "EKS",
+   "OpenTelemetry",
+   "Prometheus",
+   "New Relic",
+   "Datadog",
+   "SigNoz",
+   "PostgreSQL",
+   "MySQL",
+   "Kafka",
+   "RabbitMQ"
+  ],
+  "requirements_summary": "5+ years SRE/backend engineering experience with strong coding in Java/Go/Rust/Python, GCP/AWS/Azure and Kubernetes (GKE/EKS), observability and production datastore/streaming experience."
  },
  {
   "id": "ashby___sanity___01b3e311-43a1-49fd-8fb8-3587881e5316",
@@ -27677,7 +29358,18 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T13:13:54.804Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "Prometheus",
+   "ElasticSearch",
+   "PostgreSQL",
+   "NATS",
+   "Kong",
+   "Fastly",
+   "Google Cloud Platform"
+  ],
+  "requirements_summary": "5+ years SRE on-call experience; strong experience with Kubernetes, GCP, observability (Prometheus), CI/CD, high-volume distributed systems, troubleshooting, and mentoring engineers."
  },
  {
   "id": "grnhse___arkestroinc___5173617007",
@@ -27709,7 +29401,12 @@
   "comp_min": 129000,
   "comp_max": 244000,
   "posted_at": "2026-06-29T00:00:00.000Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "OpenTelemetry"
+  ],
+  "requirements_summary": "Experience operating large-scale distributed systems, production Kubernetes environments, OpenTelemetry observability, defining SLOs/SLIs, automating toil reduction, and improving reliability and scalability."
  },
  {
   "id": "grnhse___nebius___4906462101",
@@ -27725,7 +29422,19 @@
   "comp_min": 179500,
   "comp_max": 224300,
   "posted_at": "2026-06-29T16:00:19.000Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "Infrastructure as Code (IaC)",
+   "CI/CD",
+   "Go",
+   "Python",
+   "eBPF",
+   "XDP",
+   "DPDK",
+   "perf",
+   "ftrace"
+  ],
+  "requirements_summary": "Strong Linux and networking fundamentals, SRE/incident response experience, ability to write automation (Go/Python), familiarity with IaC, CI/CD, container platforms, observability and reliability engineering practices."
  },
  {
   "id": "grnhse___dropbox___7961824",
@@ -27869,7 +29578,12 @@
   "comp_min": 150000,
   "comp_max": 250000,
   "posted_at": "2026-06-29T15:24:07.537Z",
-  "search_query": "site reliability engineer"
+  "search_query": "site reliability engineer",
+  "technical_tools": [
+   "incident.io",
+   "DCIM"
+  ],
+  "requirements_summary": "Deep experience running live critical operations, incident triage and on-call escalation, authoring RCAs and driving corrective actions, building audits/assessments, and frequent site travel (50%+)."
  },
  {
   "id": "ashby___redis___89c3a3dd-27dd-4e30-9bfd-65268fe7b880",
@@ -27933,7 +29647,18 @@
   "comp_min": 135000,
   "comp_max": 178000,
   "posted_at": "2026-06-29T18:10:27.747Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Microsoft Azure",
+   "AWS",
+   "GCP",
+   "Ansible Automation Platform",
+   "Ansible",
+   "Kubernetes",
+   "OpenTelemetry",
+   "New Relic"
+  ],
+  "requirements_summary": "8+ years platform engineering or cloud architecture experience, Bachelor's in CS/Engineering/IT required (Master's preferred). Experience with multi\u2011cloud, Ansible automation, Kubernetes, observability, AI/ML platforms, and regulated industries preferred. Industry certs (TOGAF, Azure Solutions Architect, RHCA, CKS) helpful."
  },
  {
   "id": "lever___bannerbank___dbf32a94-0a96-45a6-99d3-81efa47a7b8e",
@@ -27949,7 +29674,22 @@
   "comp_min": 117000,
   "comp_max": 155000,
   "posted_at": "2026-07-01T14:27:02.787Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Microsoft Azure",
+   "Microsoft Azure Policy",
+   "Ansible Automation Platform",
+   "Tower/AWX",
+   "Ansible",
+   "Python",
+   "Bash",
+   "PowerShell",
+   "Kubernetes",
+   "Helm",
+   "New Relic",
+   "OpenTelemetry"
+  ],
+  "requirements_summary": "Bachelor's degree (or equivalent), 6+ years platform engineering or cloud architecture experience, Azure and Ansible expertise, strong coding (Python/Bash/PowerShell) and observability skills, experience in regulated industries preferred."
  },
  {
   "id": "ashby___scalar___77ff0d8b-37ea-4185-b3fd-6f6cc64c08fd",
@@ -27997,7 +29737,17 @@
   "comp_min": 144000,
   "comp_max": 237000,
   "posted_at": "2026-07-01T14:49:45.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Go",
+   "TypeScript",
+   "React",
+   "Kafka",
+   "OAuth 2.0",
+   "OpenID Connect",
+   "SAML"
+  ],
+  "requirements_summary": "8+ years software engineering experience with 2+ years in a staff-level technical leadership role. Strong full-stack background, experience building integration platforms and partner APIs, OAuth 2.0/OpenID Connect/SAML, distributed systems, multi-tenant environments, and strong communication."
  },
  {
   "id": "ashby___sciencelogic___f0c9b607-457a-4e2c-8bf1-ac991a57e81d",
@@ -28061,7 +29811,20 @@
   "comp_min": 111800,
   "comp_max": 186000,
   "posted_at": "2026-06-29T20:30:50.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Go",
+   "Java",
+   "Ruby",
+   "Python",
+   "Postgres",
+   "MySQL",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Datadog"
+  ],
+  "requirements_summary": "5+ years software engineering experience; building and operating large-scale production systems and data platforms; experience with catalog/product data, relational databases, cloud platforms, observability, automated testing, and cross-functional leadership."
  },
  {
   "id": "grnhse___veeamsoftware___4903808101",
@@ -28077,7 +29840,16 @@
   "comp_min": 146100,
   "comp_max": 271400,
   "posted_at": "2026-06-30T20:06:42.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Veeam",
+   "Securiti",
+   "Data Command Center",
+   "DSPM",
+   "LinkedIn Learning",
+   "O\u2019Reilly"
+  ],
+  "requirements_summary": "12+ years in customer-facing technical roles focused on data security, privacy, governance or enterprise software; hands-on cloud and data platform expertise; experience driving adoption, conducting technical assessments, and engaging executive stakeholders."
  },
  {
   "id": "grnhse___veeamsoftware___4877999101",
@@ -28157,7 +29929,17 @@
   "comp_min": 141400,
   "comp_max": 215300,
   "posted_at": "2026-07-01T20:59:26.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "FleetDM",
+   "osquery",
+   "Microsoft Intune",
+   "Patch My PC",
+   "Automox",
+   "Chocolatey",
+   "GitOps"
+  ],
+  "requirements_summary": "9+ years in systems/platform/endpoint or corporate engineering supporting enterprise production environments; strong Windows endpoint, Intune, automation/scripting, troubleshooting, and cross-functional leadership skills."
  },
  {
   "id": "grnhse___dropbox___7974881",
@@ -28461,7 +30243,9 @@
   "comp_min": 172000,
   "comp_max": 249000,
   "posted_at": "2026-06-29T18:05:32.143Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [],
+  "requirements_summary": "8+ years product management experience with developer-facing or platform products; deep knowledge of developer workflows, AI and security; demonstrated roadmap definition, cross-functional execution, executive communication, and metrics-driven prioritization."
  },
  {
   "id": "lever___agiloft___035eebc4-539f-4040-96a7-32541cf73cc2",
@@ -28845,7 +30629,11 @@
   "comp_min": 166900,
   "comp_max": 230900,
   "posted_at": "2026-06-30T20:43:09.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "AWS"
+  ],
+  "requirements_summary": "Bachelor's degree or equivalent experience, 4+ years building and operating production distributed, event-driven cloud systems (AWS); experience with scalable backend and high-volume data processing; strong engineering best practices."
  },
  {
   "id": "grnhse___upstart___8039566",
@@ -28861,7 +30649,11 @@
   "comp_min": 166900,
   "comp_max": 230900,
   "posted_at": "2026-07-01T13:51:31.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "AWS"
+  ],
+  "requirements_summary": "Bachelor's degree or equivalent, 4+ years software engineering experience building and operating distributed, event-driven, cloud (AWS) production systems; strong backend and reliability skills."
  },
  {
   "id": "grnhse___upstart___8003598",
@@ -28909,7 +30701,17 @@
   "comp_min": 200000,
   "comp_max": 230000,
   "posted_at": "2026-06-29T21:05:41.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "ML Ops",
+   "MLOps",
+   "LLM",
+   "VLM",
+   "model registry",
+   "feature stores",
+   "experiment tracking"
+  ],
+  "requirements_summary": "8+ years in software or ML engineering with significant data/ML infrastructure experience, 3+ years managing platform teams, proven MLOps and data platform expertise, production experience, strong leadership and cross-functional communication."
  },
  {
   "id": "grnhse___yurtsai___5167886007",
@@ -29005,7 +30807,24 @@
   "comp_min": 100000,
   "comp_max": 140000,
   "posted_at": "2026-07-01T16:52:19.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "dbt",
+   "SQL",
+   "python",
+   "Amazon Redshift",
+   "Snowflake",
+   "BigQuery",
+   "Apache Airflow",
+   "Dagster",
+   "AWS",
+   "Git",
+   "CI/CD",
+   "claude",
+   "claude skills",
+   "Model Context Protocol (MCP)"
+  ],
+  "requirements_summary": "3+ years in analytics engineering or data modeling; strong dbt, SQL, and Python skills; experience with cloud warehouses, pipeline orchestration, data quality, and analytics engineering best practices."
  },
  {
   "id": "grnhse___stackexchange___8037089",
@@ -29021,7 +30840,17 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T16:19:26.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Microsoft 365",
+   "Atlassian",
+   "GitHub",
+   "Slack",
+   "ServiceNow",
+   "Salesforce",
+   "Retrieval-Augmented Generation (RAG)"
+  ],
+  "requirements_summary": "Bachelor's in CS/Engineering required, 10+ years software engineering experience designing large-scale distributed systems, expertise in API platforms, cloud-native architectures, integrations, and developer platforms; strong executive communication and influencing skills."
  },
  {
   "id": "grnhse___cloverhealth___7983258",
@@ -29085,7 +30914,13 @@
   "comp_min": 92800,
   "comp_max": 115000,
   "posted_at": "2026-07-01T15:53:09.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Windows",
+   "Mac",
+   "Linux"
+  ],
+  "requirements_summary": "Provide multi-platform technical support for endpoint and cloud security, strong troubleshooting and communication skills, proficiency with Windows/Mac/Linux, case documentation, and meeting SLAs."
  },
  {
   "id": "lever___thinkahead___3e154b01-512d-4e1e-a881-1597e9997ed6",
@@ -29117,7 +30952,28 @@
   "comp_min": 145000,
   "comp_max": 175000,
   "posted_at": "2026-06-30T21:43:42.557Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Okta",
+   "Auth0",
+   "Microsoft Entra ID",
+   "AWS",
+   "Azure",
+   "Salesforce",
+   "ServiceNow",
+   "OAuth 2.0",
+   "OpenID Connect",
+   "SAML",
+   "SCIM",
+   "LDAP",
+   "REST APIs",
+   "webhooks",
+   "CI/CD",
+   "Claude",
+   "GitHub Copilot",
+   "Cursor"
+  ],
+  "requirements_summary": "Bachelor's in CS/IT or equivalent, 8+ years IAM experience (5+ architecting CIAM/IAM), required identity/cyber certification, expertise with Okta/Auth0/Microsoft Entra ID/AWS/Azure/Salesforce/ServiceNow, protocols (OAuth2.0, OIDC, SAML, SCIM, LDAP), CI/CD and platform engineering practices."
  },
  {
   "id": "ashby___a-place-for-mom___b12c5dd0-6184-4f2d-9973-d19437228d96",
@@ -29277,7 +31133,41 @@
   "comp_min": 115000,
   "comp_max": 145000,
   "posted_at": "2026-07-02T18:22:43.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Elixir",
+   "Phoenix",
+   "PostgreSQL",
+   "Kafka",
+   "gRPC",
+   "GraphQL",
+   "Kubernetes",
+   "DataDog",
+   "Phoenix",
+   "Ruby on Rails",
+   "Fast API",
+   "Laravel",
+   "Node",
+   "MySQL",
+   "Git",
+   "GitHub",
+   "ExUnit",
+   "RSpec",
+   "Jest",
+   "pytest",
+   "Oban",
+   "Exq",
+   "Sidekiq",
+   "Celery",
+   "Beanstalk",
+   "Apache Kafka",
+   "RabbitMQ",
+   "AWS SQS",
+   "AWS SNS",
+   "Google Cloud Pub/Sub",
+   "Absinthe"
+  ],
+  "requirements_summary": "Minimum 3 years software engineering experience, strong CS fundamentals, production systems and on-call experience, GraphQL/gRPC/API design, PostgreSQL, Kubernetes, and excellent communication."
  },
  {
   "id": "ashby___thumbtack___973922c8-e1b2-4131-bee4-29011ef39c7a",
@@ -29325,7 +31215,23 @@
   "comp_min": 100000,
   "comp_max": 145000,
   "posted_at": "2026-07-01T14:15:55.071Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Microsoft Power Platform",
+   "Microsoft Dataverse",
+   "Microsoft Power Automate",
+   "C#",
+   "JavaScript",
+   "Microsoft Dual Write",
+   "Power Fx",
+   "Microsoft Power Apps",
+   "Model Driven apps",
+   "Canvas apps",
+   "Microsoft Dynamics CE",
+   "F&O",
+   "Microsoft Sure Step Methodology"
+  ],
+  "requirements_summary": "3+ years developing Power Automate flows, C# plugins, JavaScript, Dual Write, and Power Fx on Microsoft Dataverse; experience building Model-driven and Canvas apps, troubleshooting, Dynamics CE/F&O exposure, strong communication and organization, Bachelor's preferred."
  },
  {
   "id": "lever___koalahealth___cd1c3f73-5273-4682-a8f8-8353d7afd6b9",
@@ -29357,7 +31263,11 @@
   "comp_min": 280000,
   "comp_max": 340000,
   "posted_at": "2026-07-01T21:25:28.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "AWS"
+  ],
+  "requirements_summary": "15+ years software engineering experience with large-scale platform or AI engineering leadership, experience deploying AI in production, cloud-native product/platform experience (AWS), and regulated-industry experience (healthcare)."
  },
  {
   "id": "grnhse___coherehealth___7791809003",
@@ -29373,7 +31283,9 @@
   "comp_min": 220000,
   "comp_max": 245000,
   "posted_at": "2026-07-01T20:03:36.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [],
+  "requirements_summary": "10+ years software engineering experience with 3+ years leading engineering teams; experience building production AI platforms, scalable data architectures, MLOps, cloud-native systems; strong cross-functional leadership and technical strategy skills."
  },
  {
   "id": "lever___activecampaign___4f81223a-50ee-495d-a3b7-942659ca5d4a",
@@ -29549,7 +31461,18 @@
   "comp_min": 170000,
   "comp_max": 290000,
   "posted_at": "2026-06-29T21:55:17.427Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "Go",
+   "Rust",
+   "Firecracker",
+   "gVisor",
+   "Kata",
+   "eBPF",
+   "Linux kernel"
+  ],
+  "requirements_summary": "7+ years building and operating large-scale compute/platform infrastructure, deep Kubernetes expertise, experience developing in Go or Rust, strong distributed systems and debugging skills, and willingness to participate in on-call rotation."
  },
  {
   "id": "ashby___jump___e1ee92bc-2153-42e9-8b1c-8e6ea590b76a",
@@ -29725,7 +31648,25 @@
   "comp_min": 169000,
   "comp_max": 230000,
   "posted_at": "2026-07-02T00:12:01.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Okta",
+   "Lumos",
+   "Delinea",
+   "Microsoft Entra",
+   "MDM",
+   "UEM",
+   "PAM",
+   "IGA",
+   "SCIM",
+   "AWS",
+   "Azure",
+   "GCP",
+   "Jira",
+   "Confluence",
+   "Docusign"
+  ],
+  "requirements_summary": "8+ years enterprise IT with 3+ years managing technical teams; hands-on identity/IAM experience (Okta/Entra), MDM/UEM, network and multi-cloud (AWS/Azure/GCP); Jira/Confluence proficiency; strong vendor and cross-functional leadership."
  },
  {
   "id": "grnhse___oura___4286391009",
@@ -29757,7 +31698,28 @@
   "comp_min": 174986,
   "comp_max": 209983,
   "posted_at": "2026-07-02T21:49:59.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Prometheus",
+   "Mimir",
+   "Loki",
+   "Tempo",
+   "Pyroscope",
+   "Go",
+   "Python",
+   "C",
+   "C++",
+   "Rust",
+   "Kafka",
+   "Grafana",
+   "Kubernetes",
+   "IaC",
+   "GPT-Codex 5",
+   "GPT-Codex 3",
+   "Claude Opus 4.6",
+   "Gemini 3 Pro"
+  ],
+  "requirements_summary": "Proven delivery of large distributed systems, strong systems-design instincts, cloud-native/platform experience (containers/Kubernetes, IaC), SLO/SLI and reliability ownership, excellent coding skills (Go preferred), and strong communication."
  },
  {
   "id": "grnhse___grafanalabs___6108385004",
@@ -29773,7 +31735,28 @@
   "comp_min": 186368,
   "comp_max": 223642,
   "posted_at": "2026-07-02T21:50:00.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Go",
+   "Python",
+   "C",
+   "C++",
+   "Rust",
+   "Kafka",
+   "Prometheus",
+   "Grafana",
+   "Kubernetes",
+   "IaC",
+   "Mimir",
+   "Loki",
+   "Tempo",
+   "Pyroscope",
+   "GPT-Codex 5",
+   "GPT-Codex 3",
+   "Claude Opus 4.6",
+   "Gemini 3 Pro"
+  ],
+  "requirements_summary": "Proven delivery of large distributed systems, strong systems design, cloud-native and platform experience (containers/Kubernetes, IaC), SLO/SLI and reliability ownership, excellent coding skills (Go preferred), experience with messaging/telemetry and observability tooling."
  },
  {
   "id": "ashby___docker___8d1583e2-7a67-4930-8073-aea6ee6f8252",
@@ -29933,7 +31916,23 @@
   "comp_min": 132415,
   "comp_max": 272619,
   "posted_at": "2026-07-02T20:27:35.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Python",
+   "Java",
+   "Node.js",
+   "Javascript",
+   "AWS",
+   "REST",
+   "gRPC",
+   "LLM",
+   "Cursor",
+   "Claude Code",
+   "Salesforce",
+   "Sales Cloud",
+   "Service Cloud"
+  ],
+  "requirements_summary": "10+ years engineering experience; proficiency in Python and at least one of Java, Node.js, or Javascript; experience building/operating distributed systems, GenAI/ML integrations, Salesforce integrations, and working with cloud platforms (e.g., AWS)."
  },
  {
   "id": "grnhse___pinterest___7990086",
@@ -29949,7 +31948,17 @@
   "comp_min": 177185,
   "comp_max": 364795,
   "posted_at": "2026-06-29T17:02:07.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Envoy",
+   "Istio",
+   "Java",
+   "Python",
+   "C++",
+   "SPIFFE",
+   "SPIRE"
+  ],
+  "requirements_summary": "6+ years infrastructure/platform engineering experience; deep expertise with Envoy/Istio and service mesh; proficiency in Java, Python, C++; strong service security (mTLS, SPIFFE/SPIRE); bachelor's/master's in CS or equivalent preferred; on-call experience."
  },
  {
   "id": "grnhse___pinterest___7960984",
@@ -29997,7 +32006,20 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T22:41:15.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Java",
+   "Kotlin",
+   "Scala",
+   "Python",
+   "Spark",
+   "Airflow",
+   "Kafka",
+   "Chronon",
+   "Tecton",
+   "Feast"
+  ],
+  "requirements_summary": "12+ years backend or platform engineering experience building production ML systems or data-intensive infrastructure; strong programming skills in Java/Kotlin/Scala/Python; experience with feature stores, model serving, Spark, Airflow, Kafka; leadership and cross-team collaboration."
  },
  {
   "id": "ashby___hopper___8a9d31ba-aa57-4cc3-a988-fd81b565c987",
@@ -30029,7 +32051,14 @@
   "comp_min": 110000,
   "comp_max": 300000,
   "posted_at": "2026-06-29T16:01:04.896Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "GCP",
+   "GKE",
+   "CI/CD",
+   "LLMs"
+  ],
+  "requirements_summary": "5+ years software/platform engineering experience; deep application security and vulnerability management knowledge; hands-on cloud (GCP/GKE) experience; habit of using AI/LLMs; strong communication and automation bias."
  },
  {
   "id": "ashby___hopper___5efd0c13-d400-4417-8610-b02fd54ae130",
@@ -30125,7 +32154,17 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T01:28:30.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Allen-Bradley",
+   "Rockwell",
+   "Siemens",
+   "PLC",
+   "HMI",
+   "MES",
+   "ERP"
+  ],
+  "requirements_summary": "Bachelor's degree in engineering or related field, experience with Allen-Bradley/Rockwell and Siemens PLC/HMI platforms, PLC programming and troubleshooting, industrial networking knowledge, MES/ERP integration experience preferred, strong communication and problem-solving skills."
  },
  {
   "id": "lever___aledade___070d5213-9ba5-4afd-aea4-9856e20becae",
@@ -30157,7 +32196,24 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T14:46:21.447Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Postgres",
+   "Snowflake",
+   "Databricks",
+   "AWS S3",
+   "Python",
+   "regex",
+   "Wiz DSPM",
+   "BigID",
+   "Cyera",
+   "Bedrock Data",
+   "Electronic Health Records",
+   "ETL",
+   "ELT",
+   "DSPM"
+  ],
+  "requirements_summary": "Design and operate data-focused security solutions, lead incident response, leverage data for security improvements, mentor engineers; requires 4+ years security experience, BS in CS/IT/Cybersecurity (or equivalent) or 8+ years without degree, Python and regex proficiency, cloud data platform experience."
  },
  {
   "id": "lever___aledade___f28cd102-8b2d-4d3b-9b4a-a198811f6b92",
@@ -30333,7 +32389,20 @@
   "comp_min": 190000,
   "comp_max": 230000,
   "posted_at": "2026-07-02T18:52:45.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   ".NET/C#",
+   "AWS",
+   "Docker",
+   "Kubernetes",
+   "WebSocket",
+   "SignalR",
+   "Argo CD",
+   "GitHub Actions",
+   "APM",
+   "Slack"
+  ],
+  "requirements_summary": "7+ years software engineering, 2+ years engineering management, production systems and distributed-systems experience, .NET/C#, AWS, Docker/Kubernetes familiarity, strong communication and reliability focus."
  },
  {
   "id": "grnhse___goguardian___4692456006",
@@ -30365,7 +32434,11 @@
   "comp_min": 204000,
   "comp_max": 280000,
   "posted_at": "2026-06-29T17:55:19.294Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "LLM-based tools"
+  ],
+  "requirements_summary": "10+ years technical experience, 2+ years managing managers, ownership of platform/infrastructure/data/DevEx/AI areas, strong written communication, experience with LLM-based tools, architecture and people leadership."
  },
  {
   "id": "grnhse___flyzipline___7773623003",
@@ -30397,7 +32470,29 @@
   "comp_min": 210000,
   "comp_max": 250000,
   "posted_at": "2026-07-02T21:08:42.716Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "C++",
+   "Python",
+   "Yocto Project",
+   "ROS2",
+   "NVIDIA Jetson",
+   "TensorRT",
+   "CUDA",
+   "AWS IoT Jobs",
+   "Mender",
+   "Starlink",
+   "Peplink",
+   "iptables",
+   "nftables",
+   "USRP",
+   "RTL-SDR",
+   "TCP/IP",
+   "802.11s",
+   "BATMAN",
+   "NMEA"
+  ],
+  "requirements_summary": "5+ years embedded Linux/platform software experience; strong C++ and Python; Yocto, ROS2, Jetson/TensorRT/CUDA experience; networking, OTA update systems, hardware bring-up, and cross-boundary debugging skills."
  },
  {
   "id": "grnhse___nscaleoperationsukltd___4880753101",
@@ -30477,7 +32572,22 @@
   "comp_min": 20800,
   "comp_max": 260000,
   "posted_at": "2026-07-03T18:11:19.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "REST",
+   "SOAP",
+   "AWS",
+   "Azure",
+   "Google Cloud",
+   "Java",
+   "C#",
+   "Python",
+   "SQL",
+   "JavaScript",
+   "HTML",
+   "CSS"
+  ],
+  "requirements_summary": "12+ years in consulting/solution architecture or system integration in finance; API (REST/SOAP) and cloud (AWS/Azure/Google Cloud) experience; programming in Java/C#/Python/SQL; client-facing and architecture skills."
  },
  {
   "id": "grnhse___billcom___6101018004",
@@ -30557,7 +32667,18 @@
   "comp_min": 174700,
   "comp_max": 218400,
   "posted_at": "2026-06-29T16:04:58.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Java",
+   "Spring Boot",
+   "Python",
+   "Airflow",
+   "Trulioo",
+   "LexisNexis",
+   "Socure",
+   "Alloy"
+  ],
+  "requirements_summary": "Experienced engineering leader (8+ years engineering, 3+ years people management) with deep backend expertise, KYC/KYB and AML familiarity, AI-first mindset, and ability to engage customers and regulators."
  },
  {
   "id": "lever___cents___0efab4e9-cf0f-462c-aeee-7fc13fecab9d",
@@ -30573,7 +32694,12 @@
   "comp_min": 205000,
   "comp_max": 230000,
   "posted_at": "2026-07-01T20:24:02.419Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Stryker",
+   "CI/CD"
+  ],
+  "requirements_summary": "10+ years building production software at staff/principal level, deep testing and engineering-quality infrastructure expertise, strong architecture and API design, SaaS/platform experience, mentorship and cross-cutting technical ownership."
  },
  {
   "id": "lever___petvisor___1b362e00-fbc5-48f7-9425-ff984db5c326",
@@ -30589,7 +32715,9 @@
   "comp_min": 164000,
   "comp_max": 180000,
   "posted_at": "2026-07-03T05:11:56.532Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [],
+  "requirements_summary": "10+ years software engineering experience with distributed systems, integrations, APIs, and cloud-native platforms; 3+ years at Staff/Principal level; strong communication, project and operational experience; bachelor's degree or equivalent preferred."
  },
  {
   "id": "grnhse___dominodatalab___8039139",
@@ -30605,7 +32733,22 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T19:57:32.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Python",
+   "SQL",
+   "R",
+   "Bash",
+   "Kubernetes",
+   "EKS",
+   "AKS",
+   "GKE",
+   "Docker",
+   "AWS",
+   "Azure",
+   "GCP"
+  ],
+  "requirements_summary": "Proficiency in Python, SQL, R, and Bash; experience with Kubernetes (EKS/AKS/GKE), Docker, cloud platforms (AWS/Azure/GCP); delivering ML workflows, model deployment/monitoring, and working in regulated environments with strong communication skills."
  },
  {
   "id": "ashby___astra___b32566e2-7f27-4d8d-a839-3d7154a6689f",
@@ -30717,7 +32860,16 @@
   "comp_min": 143000,
   "comp_max": 179000,
   "posted_at": "2026-07-02T16:21:44.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Stripe",
+   "Metronome",
+   "Orb",
+   "Zuora",
+   "SQL",
+   "Go"
+  ],
+  "requirements_summary": "Backend engineering experience focused on billing/payments, strong knowledge of SaaS billing models, proficiency with SQL and Go, experience integrating with third-party billing platforms (e.g., Stripe, Metronome, Orb, Zuora), and strong communication skills."
  },
  {
   "id": "grnhse___tailscale___4707448005",
@@ -30797,7 +32949,20 @@
   "comp_min": 138500,
   "comp_max": 221600,
   "posted_at": "2026-06-30T15:00:56.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Snowflake",
+   "dbt",
+   "Looker",
+   "SQL",
+   "Monte Carlo",
+   "Hex",
+   "Claude Code",
+   "MCP servers",
+   "GitHub Enterprise Cloud",
+   "Python"
+  ],
+  "requirements_summary": "Expert with Snowflake, dbt, Looker, and SQL; strong data modeling, ETL/ELT, dbt macros/package development, SCD experience, platform/tooling ownership, cross-functional leadership, GitHub experience; familiarity with AI-assisted tooling and Python a plus."
  },
  {
   "id": "grnhse___newsela___7985789",
@@ -30829,7 +32994,18 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T14:31:04.309Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Flutter",
+   "React Native",
+   "React",
+   "Go",
+   "Rust",
+   "Solana",
+   "Google Cloud",
+   "Amazon Web Services"
+  ],
+  "requirements_summary": "5+ years backend/platform engineering experience building high-scale, highly available systems; deep expertise in auth, financial systems, or blockchain infrastructure; strong distributed-systems and operational skills."
  },
  {
   "id": "grnhse___hopscotchprimarycare___6015152004",
@@ -30973,7 +33149,29 @@
   "comp_min": 140000,
   "comp_max": 150000,
   "posted_at": "2026-07-01T17:35:42.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Python",
+   "TypeScript",
+   "Node",
+   "AWS",
+   "STIX 2.1",
+   "TAXII 2.1",
+   "MISP",
+   "MITRE ATT&CK",
+   "YARA",
+   "Sigma",
+   "STIX Patterning",
+   "Splunk",
+   "Kinesis",
+   "NetFlow",
+   "Golang",
+   "CEL",
+   "OPA",
+   "FAIR",
+   "OpenCTI"
+  ],
+  "requirements_summary": "5+ years engineering experience in threat intelligence or detection engineering; production experience with Python and TypeScript/Node, cloud infrastructure (AWS), data platforms, STIX/TAXII/MISP, YARA/Sigma, and applied language-model systems."
  },
  {
   "id": "ashby___propelus___16f00cbc-0922-4b40-b5ca-60a7bb654609",
@@ -31517,7 +33715,28 @@
   "comp_min": 175000,
   "comp_max": 200000,
   "posted_at": "2026-06-30T15:37:31.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Snowflake",
+   "Azure Data Factory",
+   "Event Hubs",
+   "Blob Storage",
+   "Azure SQL",
+   "Azure DevOps",
+   "Debezium",
+   "dbt Cloud",
+   "dbt tests",
+   "Dagster",
+   "Airflow",
+   "Monte Carlo",
+   "Elementary",
+   "Apache Iceberg",
+   "LLMs",
+   "agents",
+   "CI/CD",
+   "MCP servers"
+  ],
+  "requirements_summary": "Proven experience designing, building, and operating production data platforms; Snowflake fluency; strong ingestion fundamentals (APIs, CDC, backfills, schema drift); data quality and observability; ability to partner cross-functionally and use AI/LLMs for tooling."
  },
  {
   "id": "lever___metabase___0559088a-66e6-4cd3-9bfe-3cf03baaaba5",
@@ -31613,7 +33832,19 @@
   "comp_min": 85000,
   "comp_max": 150000,
   "posted_at": "2026-07-02T20:02:23.620Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Lightning Web Components (LWC)",
+   "APEX",
+   "Visualforce",
+   "SOQL",
+   "SOSL",
+   "REST",
+   "SOAP",
+   "Mulesoft",
+   "Experience Cloud"
+  ],
+  "requirements_summary": "5+ years Salesforce development experience with Apex, LWC, Visualforce, SOQL/SOSL, REST/SOAP integrations, Experience Cloud, Mulesoft; Salesforce Platform Developer I/II and Administrator certs required, App Builder and MuleSoft Developer preferred."
  },
  {
   "id": "ashby___solvd___bb7aba62-6b76-4986-ba98-3cc8b5de3d66",
@@ -31901,7 +34132,12 @@
   "comp_min": 203200,
   "comp_max": 345600,
   "posted_at": "2026-07-01T22:11:24.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Zuora",
+   "Salesforce"
+  ],
+  "requirements_summary": "Director-level engineering leader with experience leading multiple teams, strong foundation in distributed systems and application development, knowledge of billing/monetization systems, and experience with platform architecture and compliance."
  },
  {
   "id": "ashby___clubhouse___bdeafb01-8213-4b36-a25a-84973defa564",
@@ -32045,7 +34281,15 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T21:03:39.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "BigQuery",
+   "Microsoft Fabric",
+   "SageMaker",
+   "Tableau",
+   "Python"
+  ],
+  "requirements_summary": "Proven experience leading engineering teams for data infrastructure/ingestion, strong technical depth in distributed systems and cloud, managing globally distributed teams, and working cross-functionally on connector/integration platforms."
  },
  {
   "id": "ashby___sweedpos.com___9fa257c6-082b-4cc2-8eeb-6dba1412449f",
@@ -32109,7 +34353,15 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T18:44:09.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "TOGAF",
+   "AWS",
+   "Azure",
+   "Google Cloud",
+   "LLM"
+  ],
+  "requirements_summary": "Experienced enterprise architect with 15+ years in software engineering or architecture, bachelor's degree required, cloud and AI/ML platform expertise, strong stakeholder influence and leadership skills."
  },
  {
   "id": "grnhse___fortitudegroupholdingsllc___5148740007",
@@ -32141,7 +34393,23 @@
   "comp_min": 220000,
   "comp_max": 265000,
   "posted_at": "2026-07-01T05:09:20.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "GitHub Copilot",
+   "Cursor",
+   "Claude Code",
+   "RBAC/ReBAC",
+   "SpiceDB / Authzed",
+   "OPA",
+   "Cedar",
+   "TypeScript",
+   "Node.js",
+   "React",
+   "AWS",
+   "PostgreSQL",
+   "Terraform (CDKTF)"
+  ],
+  "requirements_summary": "5+ years building and maintaining production software, 3+ years managing engineering teams; platform/shared-services experience; ownership of high-volume services; systems design, security, and developer-experience focus; experience with AI coding agents."
  },
  {
   "id": "grnhse___honeycomb___5250118008",
@@ -32157,7 +34425,20 @@
   "comp_min": 208260,
   "comp_max": 234000,
   "posted_at": "2026-06-30T23:10:21.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "CI/CD",
+   "CircleCI",
+   "RWX",
+   "Namespace",
+   "GitHub Actions",
+   "JavaScript",
+   "Go",
+   "TypeScript",
+   "OpenTelemetry",
+   "Autobots"
+  ],
+  "requirements_summary": "Multi-year experience leading engineering enablement or developer-experience teams, fluency in CI/CD, AI tooling depth, observability/OpenTelemetry familiarity, metrics/program ROI experience, cross-org change leadership, internal platform/product experience."
  },
  {
   "id": "lever___distro___a995ea73-93a5-4983-a78f-ff06b461f8b2",
@@ -32205,7 +34486,15 @@
   "comp_min": 96200,
   "comp_max": 148000,
   "posted_at": "2026-07-01T15:23:55.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Adobe Experience Platform Web SDK",
+   "Mobile SDK",
+   "Adobe Launch (Experience Platform Data Collection)",
+   "Adobe Analytics",
+   "Adobe Customer Journey Analytics (CJA)"
+  ],
+  "requirements_summary": "6+ years software engineering focused on web/app analytics instrumentation, tag management, and telemetry. Expert Adobe Experience Platform Web SDK/Mobile SDK, Adobe Launch, Adobe Analytics, and CJA experience; strong JS, debugging, and collaboration skills."
  },
  {
   "id": "grnhse___dept___8030932",
@@ -32221,7 +34510,18 @@
   "comp_min": 138000,
   "comp_max": 183000,
   "posted_at": "2026-06-30T17:25:05.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Adobe Experience Platform (AEP)",
+   "Real-Time Customer Data Platform (RT-CDP)",
+   "Customer Journey Analytics (CJA)",
+   "Adobe Journey Optimizer (AJO)",
+   "Marketo Engage",
+   "Adobe Campaign (v7/v8)",
+   "Adobe Target",
+   "WebSDK"
+  ],
+  "requirements_summary": "12+ years leading lifecycle marketing, data engineering, or martech consulting; architect-level Adobe Experience Platform expertise; experience with identity resolution, real-time segmentation, and marketing automation; strong executive communication."
  },
  {
   "id": "grnhse___reltio___6030357004",
@@ -32333,7 +34633,22 @@
   "comp_min": 135000,
   "comp_max": 200000,
   "posted_at": "2026-06-30T15:01:22.310Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "ECC",
+   "S/4HANA",
+   "Ariba",
+   "IDocs",
+   "BAPI/RFC",
+   "OData APIs",
+   "SAP BTP/CPI",
+   "iPaaS",
+   "XML",
+   "REST",
+   "API",
+   "App Studio"
+  ],
+  "requirements_summary": "6+ years delivering SAP (ECC, S/4HANA) integrations or procurement platform integrations; strong MM/FI domain knowledge; familiarity with IDocs, BAPI/RFC, OData, SAP BTP/CPI, API/XML/REST; ERP implementation experience; strong communication and presales support skills."
  },
  {
   "id": "grnhse___3cloud___8586094002",
@@ -32429,7 +34744,19 @@
   "comp_min": 130000,
   "comp_max": 170000,
   "posted_at": "2026-06-29T16:06:01.313Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "LLMs",
+   "OpenAI",
+   "ChatGPT",
+   "Propelix",
+   "Botly",
+   "CRM",
+   "GitHub",
+   "Replit",
+   "SQL"
+  ],
+  "requirements_summary": "3+ years in a technical role (technical product management, forward-deployed engineering, or similar); strong familiarity with LLMs, prompt engineering, SQL, API design, and cross-functional collaboration; experience driving platform strategy."
  },
  {
   "id": "ashby___jerry.ai___789b0636-5ff9-4d26-a592-1f27f2695afb",
@@ -32445,7 +34772,19 @@
   "comp_min": 160000,
   "comp_max": 200000,
   "posted_at": "2026-06-29T16:08:44.529Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "LLMs",
+   "SQL",
+   "Propelix",
+   "Botly",
+   "CRM",
+   "GitHub",
+   "Replit",
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "requirements_summary": "Minimum 4 years in a technical product/engineering role, strong knowledge of LLMs and AI systems, familiarity with SQL, experience driving platform and API architecture, excellent communication and systems thinking."
  },
  {
   "id": "ashby___cylinderhealth___62f1704f-e8b9-407e-a468-b212454525ca",
@@ -32477,7 +34816,18 @@
   "comp_min": 170000,
   "comp_max": 182750,
   "posted_at": "2026-06-29T21:01:29.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Salesforce",
+   "Apex",
+   "SOQL",
+   "Boomi",
+   "Workday",
+   "SFDX",
+   "CI/CD",
+   "AppExchange"
+  ],
+  "requirements_summary": "7+ years Salesforce engineering experience, 2+ years in lead/architect role, expert Apex and SOQL, Platform Developer II required, experience with Boomi/Workday integrations, SFDX and CI/CD, technical leadership and platform governance."
  },
  {
   "id": "grnhse___axiom___8612676002",
@@ -32493,7 +34843,20 @@
   "comp_min": 175000,
   "comp_max": 188125,
   "posted_at": "2026-06-29T21:01:28.000Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Salesforce",
+   "Apex",
+   "SOQL",
+   "Boomi",
+   "Workday",
+   "SFDX",
+   "CI/CD",
+   "AppExchange",
+   "Revenue Cloud",
+   "CPQ"
+  ],
+  "requirements_summary": "7+ years Salesforce engineering experience with 2+ years in a lead/architect role; expert Apex and SOQL; Platform Developer II required; experience with integrations (Boomi, Workday), SFDX, CI/CD, and Salesforce security."
  },
  {
   "id": "grnhse___bitwarden___7784014003",
@@ -32653,7 +35016,19 @@
   "comp_min": 130000,
   "comp_max": 160000,
   "posted_at": "2026-07-01T17:38:52.537Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Microsoft ConfigMgr",
+   "Microsoft Intune",
+   "Microsoft WSUS",
+   "Microsoft Windows",
+   "Microsoft Azure",
+   "Microsoft Office 365",
+   "Microsoft SharePoint",
+   "Microsoft SCCM",
+   "RMM"
+  ],
+  "requirements_summary": "10+ years technical experience, 7+ years managing technical teams; experience with Microsoft platforms (Windows, Azure), Office 365, SharePoint, ConfigMgr/SCCM, Intune, WSUS, RMM; strong cross-functional collaboration and change leadership."
  },
  {
   "id": "grnhse___pipetechnologies___4267014009",
@@ -37005,7 +39380,19 @@
   "comp_min": 123000,
   "comp_max": 175000,
   "posted_at": "2026-06-29T21:37:04.000Z",
-  "search_query": "cloud engineer"
+  "search_query": "cloud engineer",
+  "technical_tools": [
+   "Snowflake",
+   "Metabase",
+   "Grafana",
+   "Python",
+   "SQL",
+   "Prometheus",
+   "Victoria Metrics",
+   "Microsoft Excel",
+   "Google Sheets"
+  ],
+  "requirements_summary": "Bachelor's (or equivalent) and 3+ years in SRE, capacity planning, systems or data center operations. Experience with capacity modeling for large-scale cloud storage, strong data analysis, and cross-functional communication."
  },
  {
   "id": "grnhse___godaddy___7704938003",
@@ -39165,7 +41552,14 @@
   "comp_min": 123000,
   "comp_max": 175000,
   "posted_at": "2026-07-01T23:11:54.000Z",
-  "search_query": "sre"
+  "search_query": "sre",
+  "technical_tools": [
+   "Jira",
+   "SNOW",
+   "FireHydrant",
+   "Moogsoft"
+  ],
+  "requirements_summary": "5+ years in IT operations/SRE with expertise in incident, problem, and change management; AI/ML operational knowledge and AIOps experience; experience governing operational processes and improving MTTR."
  },
  {
   "id": "grnhse___databricks___8407869002",
@@ -39181,7 +41575,26 @@
   "comp_min": 103900,
   "comp_max": 145525,
   "posted_at": "2026-06-30T21:09:20.000Z",
-  "search_query": "sre"
+  "search_query": "sre",
+  "technical_tools": [
+   "AWS",
+   "Azure",
+   "GCP",
+   "Datadog",
+   "Elasticsearch",
+   "Splunk",
+   "Cloud Logging",
+   "OpenTelemetry",
+   "Prometheus",
+   "Grafana",
+   "Python",
+   "Go",
+   "Bash",
+   "Apache Spark",
+   "Delta Lake",
+   "MLflow"
+  ],
+  "requirements_summary": "5+ years in incident management/SRE/production operations for cloud-native systems; lead high-severity incidents; cloud (AWS/Azure/GCP) and observability expertise; log analysis; scripting (Python/Go/Bash); BS/MS in CS/CE or related field."
  },
  {
   "id": "grnhse___upstart___8030528",
@@ -39405,7 +41818,15 @@
   "comp_min": 129000,
   "comp_max": 304000,
   "posted_at": "2026-07-02T00:00:00.000Z",
-  "search_query": "reliability engineer"
+  "search_query": "reliability engineer",
+  "technical_tools": [
+   "Go",
+   "TypeScript",
+   "Solidity",
+   "gRPC",
+   "SQL"
+  ],
+  "requirements_summary": "Experience building and operating production distributed systems at scale; advanced proficiency in Go; backend/API development and ownership from design through production; strong reliability and engineering rigor; TypeScript/Solidity experience preferred."
  },
  {
   "id": "grnhse___remotecom___7778864003",
@@ -39485,7 +41906,20 @@
   "comp_min": 160000,
   "comp_max": 160000,
   "posted_at": "2026-06-30T18:46:51.000Z",
-  "search_query": "reliability engineer"
+  "search_query": "reliability engineer",
+  "technical_tools": [
+   "Python",
+   "Django",
+   "Flask",
+   "FastAPI",
+   "LLM APIs",
+   "Retrieval-Augmented Generation (RAG)",
+   "Claude",
+   "Copilot",
+   "REST APIs",
+   "CI/CD"
+  ],
+  "requirements_summary": "4+ years backend development experience; production AI/ML and LLM API experience; strong Python and framework skills (Django/Flask/FastAPI); experience with prompt design, reliability, CI/CD, and strong communication."
  },
  {
   "id": "ashby___kovo___230e7620-20c7-4f19-ac02-350b3308fe88",
@@ -39709,7 +42143,14 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T19:55:40.147Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Agile",
+   "Scrum",
+   "Kanban",
+   "DevOps"
+  ],
+  "requirements_summary": "8+ years engineering experience with 3+ years leading managers or senior technical leads; proven track record scaling teams and delivering complex software; strong foundation in software architecture, cloud, DevOps, and Agile practices; exceptional communication and stakeholder skills."
  },
  {
   "id": "grnhse___accenturefederalservices___4690993006",
@@ -39805,7 +42246,24 @@
   "comp_min": 196000,
   "comp_max": 255000,
   "posted_at": "2026-06-29T20:03:51.008Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Kubernetes",
+   "Helm",
+   "Terraform",
+   "AWS",
+   "GCP",
+   "Prometheus",
+   "Grafana",
+   "Datadog",
+   "CI/CD",
+   "Java",
+   "Python",
+   "Airbyte",
+   "CDKs",
+   "LLMs"
+  ],
+  "requirements_summary": "7+ years in infrastructure/platform engineering/SRE/DevOps; hands-on Kubernetes, Helm, Terraform; observability with Prometheus/Grafana/Datadog; CI/CD ownership; ability to read backend code; fluency with LLMs and agentic tools."
  },
  {
   "id": "grnhse___fastly___7858609",
@@ -39917,7 +42375,33 @@
   "comp_min": 110000,
   "comp_max": 130000,
   "posted_at": "2026-06-29T16:34:49.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "MuleSoft Anypoint Platform",
+   "Anypoint Code Builder",
+   "CloudHub 2.0",
+   "REST",
+   "SOAP",
+   "JSON",
+   "XML",
+   "DataWeave",
+   "Anypoint MQ",
+   "Azure Service Bus",
+   "Azure Data Factory",
+   "Databricks",
+   "Azure Functions",
+   "Azure Logic Apps",
+   "Azure API Management",
+   "Salesforce",
+   "Oracle PeopleSoft",
+   "Azure DevOps",
+   "GitHub",
+   "Kafka",
+   "Azure Event Hubs",
+   "Azure Key Vault",
+   "Azure OpenAI"
+  ],
+  "requirements_summary": "5+ years enterprise integration development; deep MuleSoft Anypoint Platform and CloudHub 2.0 experience; strong REST/SOAP/JSON/XML/DataWeave skills; Azure integration services; CI/CD (Azure DevOps, GitHub); API security (OAuth2, JWT); L2/L3 support."
  },
  {
   "id": "grnhse___ridgeline___7792571003",
@@ -39933,7 +42417,32 @@
   "comp_min": 153000,
   "comp_max": 210000,
   "posted_at": "2026-07-02T14:27:32.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Claude Code",
+   "Cursor",
+   "Terraform",
+   "AWS",
+   "EC2",
+   "ECS",
+   "EKS",
+   "RDS",
+   "S3",
+   "IAM",
+   "CloudWatch",
+   "GitHub Actions",
+   "CircleCI",
+   "Buildkite",
+   "Python",
+   "Go",
+   "Bash",
+   "Kubernetes",
+   "Helm",
+   "Kotlin",
+   "Node.js",
+   "TypeScript"
+  ],
+  "requirements_summary": "3\u20136 years SRE/DevOps experience, 2+ years on AWS, proficiency with Terraform, observability, CI/CD, Python/Go/Bash, incident response, and strong communication and troubleshooting skills."
  },
  {
   "id": "grnhse___pinterest___7782538",
@@ -40013,7 +42522,19 @@
   "comp_min": 149000,
   "comp_max": 218000,
   "posted_at": "2026-06-29T17:58:43.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Java",
+   "Python",
+   "Ruby",
+   "Go",
+   "Node.JS",
+   "PHP",
+   ".NET",
+   "CRM",
+   "Datadog"
+  ],
+  "requirements_summary": "3+ years in Sales Engineering or DevOps Engineering; strong written and oral communication; programming/scripting experience (Java, Python, Ruby, Go, Node.JS, PHP, .NET); ability to build evaluation plans and travel up to 45%."
  },
  {
   "id": "grnhse___datadog___7857714",
@@ -40205,7 +42726,19 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T15:09:03.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "TypeScript",
+   "Playwright",
+   "AWS CDK",
+   "AWS serverless services",
+   "GitHub Actions",
+   ".NET",
+   "Angular",
+   "Docker",
+   "LLMs"
+  ],
+  "requirements_summary": "5+ years in test engineering, strong TypeScript and Playwright experience, API/backend testing, CI/CD (GitHub Actions), AWS/serverless and DevOps familiarity, LLM/AI testing knowledge, strong communication and mentoring skills."
  },
  {
   "id": "grnhse___diligentcorporation___5988542004",
@@ -40317,7 +42850,9 @@
   "comp_min": 120000,
   "comp_max": 220000,
   "posted_at": "2026-07-02T13:09:41.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [],
+  "requirements_summary": "Proven technical customer-facing experience, hands-on DevOps/CI/CD and cloud/container exposure, practical software development tooling experience, English professional fluency, and ability to travel internationally ~20%."
  },
  {
   "id": "grnhse___blackduck___5249569008",
@@ -40381,7 +42916,18 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T13:13:45.241Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Android",
+   "Kotlin",
+   "Git",
+   "Azure DevOps",
+   "Jira",
+   "Jetpack Compose",
+   "Gradle",
+   "CI/CD"
+  ],
+  "requirements_summary": "8+ years software engineering experience with Android/Kotlin, 2+ years people leadership, Bachelor's in CS or equivalent, experience with Git, Azure DevOps, Jira, and CI/CD; strong communication and delivery skills."
  },
  {
   "id": "grnhse___compeerfinancial___5286444008",
@@ -40397,7 +42943,16 @@
   "comp_min": 118500,
   "comp_max": 180000,
   "posted_at": "2026-06-30T13:41:10.000Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "cloud-native development",
+   "automation",
+   "CI/CD",
+   "DevSecOps",
+   "test automation",
+   "AI-assisted development tools"
+  ],
+  "requirements_summary": "Bachelor's in CS/Engineering or equivalent experience, 7+ years software engineering experience, 3+ years people leadership preferred, proven technical/architecture leadership, cloud-native/CI/CD/DevSecOps knowledge, cross-functional collaboration skills."
  },
  {
   "id": "ashby___upside___524694e2-aec3-483d-8bbe-4bb207e7a309",
@@ -40573,7 +43128,19 @@
   "comp_min": 115000,
   "comp_max": 130000,
   "posted_at": "2026-06-30T13:16:05.000Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   ".NET",
+   "C#",
+   "Angular",
+   "Microsoft SQL Server",
+   "PowerShell",
+   "Azure DevOps",
+   "CMS",
+   "Fabric",
+   "Microsoft Power Platform"
+  ],
+  "requirements_summary": "5+ years supporting business systems and integrations with Microsoft technologies; proficiency with .NET/C#, Angular, Microsoft SQL Server, PowerShell; Azure DevOps, CMS, Fabric and Microsoft Power Platform are a plus."
  },
  {
   "id": "grnhse___logicmonitor___8025747",
@@ -40701,7 +43268,24 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T20:18:25.556Z",
-  "search_query": "devops"
+  "search_query": "devops",
+  "technical_tools": [
+   "SIEM",
+   "EDR",
+   "DLP",
+   "IAM",
+   "PAM",
+   "NIST CSF",
+   "CIS Controls",
+   "ISO 27001",
+   "GLBA",
+   "NYDFS",
+   "PCI DSS",
+   "DevSecOps",
+   "Infrastructure as Code",
+   "cloud security"
+  ],
+  "requirements_summary": "Strategic leadership of enterprise information security including governance, risk management, compliance, incident response, security operations, cloud and vendor risk; bachelor's required, 8+ years cybersecurity experience, 5+ years leadership, security certifications preferred."
  },
  {
   "id": "grnhse___axon___7787097003",
@@ -51229,7 +53813,28 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T15:43:20.222Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "ECS",
+   "EKS",
+   "Lambda",
+   "RDS",
+   "Aurora",
+   "S3",
+   "VPC",
+   "IAM",
+   "CloudWatch",
+   "Terraform",
+   "CDK",
+   "GitHub Actions",
+   "Jenkins",
+   "Docker",
+   "Kubernetes",
+   "Datadog",
+   "Grafana",
+   "EHR"
+  ],
+  "requirements_summary": "5+ years in infrastructure/DevOps/cloud roles, deep hands-on AWS (ECS, EKS, Lambda, RDS/Aurora, S3, VPC, IAM, CloudWatch), Terraform/CDK, CI/CD (GitHub Actions/Jenkins), container orchestration, observability tooling, and HIPAA infrastructure understanding."
  },
  {
   "id": "workable___vouched___58090a7b-bbb4-47b7-9748-42777c7aadb1",
@@ -51421,7 +54026,27 @@
   "comp_min": 125000,
   "comp_max": 175000,
   "posted_at": "2026-07-02T23:12:07.394Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "AWS",
+   "Lambda",
+   "API Gateway",
+   "S3",
+   "CloudWatch",
+   "IAM",
+   "EventBridge",
+   "RDS",
+   "Aurora",
+   "AWS CDK",
+   "Terraform",
+   "GitHub",
+   "CI/CD pipelines",
+   "Python",
+   "Bash",
+   "PostgreSQL",
+   "AI coding assistants"
+  ],
+  "requirements_summary": "6+ years in DevOps/platform/SRE, 2+ years leading engineers, strong AWS production experience, CI/CD and infrastructure-as-code expertise, Linux and networking skills, Python/Bash scripting, cloud security and incident response, strong communication."
  },
  {
   "id": "workable___worth_ai___762e6a15-4fbc-4c5c-8978-043e08544ca7",
@@ -51693,7 +54318,20 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T15:53:41.398Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "Kubernetes",
+   "Go",
+   "AWS",
+   "EKS",
+   "VPC",
+   "IAM",
+   "Terraform",
+   "CDK",
+   "GitOps",
+   "SLOs/SLIs"
+  ],
+  "requirements_summary": "6+ years leading infrastructure engineering orgs (manager-of-managers), SRE practices, Kubernetes, AWS, Infrastructure as Code (Terraform/CDK), strong leadership and communication."
  },
  {
   "id": "workable___mindera___efe38f67-65b6-4f73-8064-06f39d2c0ae0",
@@ -51741,7 +54379,48 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T13:15:47.591Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "React",
+   "TypeScript",
+   "Vite",
+   "TanStack Query",
+   "vitest",
+   "Playwright",
+   "Python",
+   "FastAPI",
+   "SQLAlchemy",
+   "Alembic",
+   "Celery",
+   "Pydantic",
+   "SNS",
+   "SQS",
+   "PostgreSQL",
+   "Neo4j",
+   "Cypher",
+   "pgvector",
+   "AWS",
+   "ECS Fargate",
+   "Aurora",
+   "RDS Proxy",
+   "Route53",
+   "ACM",
+   "WAF",
+   "CloudFront",
+   "IAM",
+   "OIDC",
+   "Terraform",
+   "Docker",
+   "gitflow",
+   "SAP ECC",
+   "RFC/BAPI",
+   "ABAP",
+   "pyrfc",
+   "Auth0",
+   "JWT",
+   "Claude Code agents"
+  ],
+  "requirements_summary": "Fluent AI orchestration, full-stack + infrastructure experience (React to Terraform), strong systems debugging, evidence-based validation, automation reflex, operational discipline; enterprise ERP/SAP integration experience preferred."
  },
  {
   "id": "workable___stellar_cyber___e118e283-997d-44de-ae9d-b53cb0a733e7",
@@ -51821,7 +54500,42 @@
   "comp_min": 27600,
   "comp_max": 34800,
   "posted_at": "2026-06-29T17:16:27.406Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "RHEL",
+   "HPUX",
+   "IBM AIX",
+   "Suse",
+   "CentOS",
+   "Ubuntu",
+   "MacOS",
+   "Ansible",
+   "Terraform",
+   "Puppet",
+   "BIND",
+   "Infoblox",
+   "Tcpdump",
+   "Wireshark",
+   "NTP",
+   "NFS",
+   "SUDO",
+   "LDAP",
+   "SFTP",
+   "sh",
+   "csh",
+   "ksh",
+   "bash",
+   "sed",
+   "awk",
+   "Python",
+   "VMware",
+   "Hyper-V",
+   "Microsoft Azure",
+   "OpenStack",
+   "Citrix Xen",
+   "ServiceNow"
+  ],
+  "requirements_summary": "8+ years Unix/Linux administration experience; proficiency with RHEL, Ansible, Terraform, Puppet, DNS (BIND/Infoblox), virtualization, networking, scripting (sh/csh/ksh/bash, sed, awk, Python), and Microsoft Azure."
  },
  {
   "id": "workable___bit_by_bit_inc___3a71cd49-7566-4ad1-b094-4c7bd9498dc5",
@@ -51837,7 +54551,42 @@
   "comp_min": 18000,
   "comp_max": 27600,
   "posted_at": "2026-06-29T17:16:27.588Z",
-  "search_query": "terraform"
+  "search_query": "terraform",
+  "technical_tools": [
+   "RHEL",
+   "Ansible",
+   "Terraform",
+   "Puppet",
+   "BIND",
+   "Infoblox",
+   "Tcpdump",
+   "Wireshark",
+   "NTP",
+   "NFS",
+   "SUDO",
+   "LDAP",
+   "SFTP",
+   "sh",
+   "csh",
+   "ksh",
+   "bash",
+   "sed",
+   "awk",
+   "Python",
+   "VMware",
+   "Hyper-V",
+   "Microsoft Azure",
+   "OpenStack",
+   "Citrix Xen",
+   "ServiceNow",
+   "HPUX",
+   "IBM AIX",
+   "Suse",
+   "CentOS",
+   "Ubuntu",
+   "MacOS"
+  ],
+  "requirements_summary": "8+ years Unix/Linux administration experience; proficiency with RHEL, Ansible, Terraform, Puppet, DNS (BIND, Infoblox), networking (Tcpdump/Wireshark), scripting (sh/csh/ksh/bash, sed, awk, Python), virtualization, and Microsoft Azure."
  },
  {
   "id": "workable___toyota_tsusho_systems___b6c3e17b-d78b-4c2b-b8cf-0c0f45d22bf7",
@@ -52013,7 +54762,24 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-03T10:17:11.068Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Node.js",
+   "TypeScript",
+   "PostgreSQL",
+   "Redis",
+   "RabbitMQ",
+   "Kubernetes",
+   "GitLab CI/CD",
+   "Docker",
+   "REST APIs",
+   "Fireblocks",
+   "Uphold",
+   "Cursor",
+   "GitHub Copilot",
+   "Claude Code"
+  ],
+  "requirements_summary": "3+ years leading platform or core engineering teams; fintech/crypto experience; custody platform experience (Fireblocks/Uphold); KYC/AML/Travel Rule knowledge; strong Node.js background; platform reliability and incident management experience."
  },
  {
   "id": "workable___panorama_education___6617711d-0c6a-4edd-ba98-fa76c8530c3d",
@@ -52029,7 +54795,12 @@
   "comp_min": 233750,
   "comp_max": 343750,
   "posted_at": "2026-06-30T18:55:03.736Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "MCP",
+   "LLM"
+  ],
+  "requirements_summary": "8+ years software engineering experience in platform, infrastructure, or developer tooling; production AI systems experience (LLM integrations, agents, retrieval pipelines); strong API/abstraction design and cross-functional collaboration."
  },
  {
   "id": "workable___tetrascience___f3a8e5bc-206b-420c-8d91-cddce1a68dce",
@@ -52045,7 +54816,19 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-29T15:11:49.635Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Elasticsearch",
+   "OpenSearch",
+   "Lucene",
+   "Solr",
+   "TypeScript",
+   "Python",
+   "AWS",
+   "RDKit",
+   "Databricks"
+  ],
+  "requirements_summary": "10+ years backend/platform engineering; deep search expertise (Elasticsearch/OpenSearch/Lucene), TypeScript & Python, cloud search infrastructure (AWS), semantic/hybrid retrieval, embeddings/LLMs exposure, strong communication."
  },
  {
   "id": "workable___sangoma___54d0e099-c0d5-4dd9-b53a-9ef7cbe90a97",
@@ -52125,7 +54908,33 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T17:08:06.763Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Python",
+   "Java",
+   "C#",
+   "Go",
+   "TypeScript",
+   "Claude Code",
+   "OpenAI Codex",
+   "Google Antigravity",
+   "Cursor",
+   "GitHub Copilot",
+   "FastAPI",
+   "Flask",
+   "Spring Boot",
+   ".NET",
+   "Express",
+   "AWS",
+   "Azure",
+   "GCP",
+   "Databricks",
+   "Snowflake",
+   "Kubernetes",
+   "MLOps",
+   "LLMOps"
+  ],
+  "requirements_summary": "Bachelor's in CS/Engineering/Math or equivalent; 3+ years software engineering; 1+ year production AI/ML; programming in Python, Java, C#, Go, or TypeScript; experience with MLOps/LLMOps, Kubernetes, cloud platforms, and production deployment."
  },
  {
   "id": "workable___futuresight___1f971324-624a-4a5f-88e9-0a0787afbbd4",
@@ -52205,7 +55014,26 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-02T21:29:45.303Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "JavaScript",
+   "TypeScript",
+   "Node.js",
+   "Nest.js",
+   "React",
+   "Next.js",
+   "MongoDB",
+   "MySQL",
+   "GraphQL",
+   "RESTful API",
+   "cXML",
+   "OCI",
+   "SAP Ariba",
+   "Coupa",
+   "Jaggaer",
+   "Oracle Procurement"
+  ],
+  "requirements_summary": "Bachelor's or equivalent experience; 5+ years software engineering; 2+ years e-commerce platform experience; proficiency with JavaScript/TypeScript, Node.js/Nest.js, React/Next.js, MySQL and MongoDB; strong autonomy and mentorship skills."
  },
  {
   "id": "workable___ipullrank___5916719",
@@ -52269,7 +55097,15 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-03T17:30:20.852Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "Node.js",
+   "Typescript",
+   "React.js",
+   "Python",
+   "Stripe Radar"
+  ],
+  "requirements_summary": "12+ years building large-scale web/mobile platforms, 5+ years engineering leadership (20+ engineers), InfoSec and IT services experience, payments/loyalty platform experience, strong executive communication."
  },
  {
   "id": "workable___assistrx___604e6bcf-74b5-4362-931b-983ee20588ce",
@@ -52349,7 +55185,17 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T17:24:33.422Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "RSMeans",
+   "CostWorks",
+   "Success Estimator",
+   "MII",
+   "Microsoft Office Suite",
+   "CSI MasterFormat",
+   "Uniformat"
+  ],
+  "requirements_summary": "Bachelor's in construction/engineering/architecture/quantity surveying; minimum 7 years electrical estimating for commercial/institutional/federal projects; proficiency with estimating platforms and Microsoft Office; strong electrical systems and document interpretation skills."
  },
  {
   "id": "breezy___netsync-network-solutions___12de867953b3",
@@ -52381,7 +55227,15 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T18:44:20.510Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "SAP Fieldglass",
+   "Beeline",
+   "Magnit",
+   "ATS",
+   "Looker"
+  ],
+  "requirements_summary": "5+ years staffing-agency experience, 3+ years managing MSP/VMS or SOW programs, domain experience in Life Sciences or technical engineering, mastery of enterprise VMS platforms, ATS and analytics, strong negotiation and presentation skills."
  },
  {
   "id": "workable___cynet_corp___8e291f56-ae78-4dba-a1ef-aa9f3fd65429",
@@ -52397,7 +55251,16 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T18:44:20.791Z",
-  "search_query": "platform engineer"
+  "search_query": "platform engineer",
+  "technical_tools": [
+   "SAP Fieldglass",
+   "Beeline",
+   "Magnit",
+   "VMS",
+   "ATS",
+   "Looker"
+  ],
+  "requirements_summary": "5+ years staffing agency experience, 3+ years managing MSP/VMS or SOW programs, domain familiarity with Life Sciences or technical engineering, MSP/VMS platform mastery, ATS and Looker competency, strong negotiation and presentation skills."
  },
  {
   "id": "breezy___servos___8e732cb2fd1b",
@@ -52477,7 +55340,19 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T15:19:52.803Z",
-  "search_query": "reliability engineer"
+  "search_query": "reliability engineer",
+  "technical_tools": [
+   "SQL",
+   "Python",
+   "Postgres",
+   "DBT",
+   "Pulumi",
+   "AWS CDK",
+   "ClickHouse",
+   "Dagster",
+   "Step Functions"
+  ],
+  "requirements_summary": "3+ years backend/data engineering experience; expert SQL and Python; hands-on Postgres; dbt experience; IaC with Pulumi or AWS CDK; data validation, testing, and quality assurance skills."
  },
  {
   "id": "workable___fuse_energy___22220640-4466-4956-9827-129ee2050c95",
@@ -52493,7 +55368,20 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-07-01T15:19:52.598Z",
-  "search_query": "reliability engineer"
+  "search_query": "reliability engineer",
+  "technical_tools": [
+   "Python",
+   "SQL",
+   "Postgres",
+   "ClickHouse",
+   "DBT",
+   "Pulumi",
+   "AWS CDK",
+   "Dagster",
+   "Step Functions",
+   "CI/CD"
+  ],
+  "requirements_summary": "3+ years backend/data engineering experience; strong Python and SQL; hands-on Postgres; DBT familiarity; IaC experience with Pulumi or AWS CDK; data modeling, validation, and testing skills."
  },
  {
   "id": "workable___chaingpt___60604c92-8fa0-46c0-9239-990f9f7511fb",
@@ -52589,7 +55477,42 @@
   "comp_min": 160000,
   "comp_max": 160000,
   "posted_at": "2026-07-03T21:49:30.455Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Azure Entra ID",
+   "Azure IoT Hub",
+   "Azure API Management",
+   "Azure Key Vault",
+   "Azure Monitor",
+   "Ansible",
+   "Chef",
+   "Puppet",
+   "Docker",
+   "Kubernetes",
+   "Bazel",
+   "Maven",
+   "Cargo",
+   "CMake",
+   "Terraform",
+   "Azure Bicep",
+   "Bash",
+   "PowerShell",
+   "Python",
+   "Azure DevOps",
+   "GitHub Actions",
+   "GitOps",
+   "GitFlow",
+   "Azure CLI",
+   "ARM templates",
+   "Angular",
+   "Typescript",
+   "JavaScript",
+   "C#",
+   ".NET",
+   "Claude Code",
+   "GitHub Copilot"
+  ],
+  "requirements_summary": "Deep Azure and IaC experience (Terraform/Azure Bicep), config management (Ansible/Chef/Puppet), containerization (Docker/Kubernetes), scripting (Bash/PowerShell/Python); Bachelor's and 7+ years DevOps experience."
  },
  {
   "id": "workable___itrs___0cdb2653-29ab-48d6-ab37-bc49efe861dc",
@@ -52749,7 +55672,22 @@
   "comp_min": null,
   "comp_max": null,
   "posted_at": "2026-06-30T15:51:19.360Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "Oracle EHR system",
+   "ServiceNow IntegrationHub",
+   "Flow Designer",
+   "Script Includes",
+   "Business Rules",
+   "REST APIs",
+   "SOAP Web Services",
+   "JavaScript",
+   "MID Servers",
+   "Electronic Health Record (EHR)",
+   "CI/CD pipelines",
+   "DevSecOps"
+  ],
+  "requirements_summary": "Bachelor's in CS/IS/Engineering, extensive ServiceNow integration experience (IntegrationHub, Flow Designer, REST/SOAP, JavaScript), Agile experience, strong troubleshooting and communication skills; preferred ServiceNow certifications and federal/health IT experience."
  },
  {
   "id": "workable___rave_aerospace_llc___6a7dc65d-1450-415a-b456-b1cf1936b964",
@@ -52765,7 +55703,20 @@
   "comp_min": 145000,
   "comp_max": 165000,
   "posted_at": "2026-07-02T20:32:39.026Z",
-  "search_query": "devops engineer"
+  "search_query": "devops engineer",
+  "technical_tools": [
+   "IGMP",
+   "Rapid Spanning Tree Protocol (RSTP)",
+   "Multicast Routing",
+   "Linux",
+   "C",
+   "C++",
+   "Python",
+   "bash/sh",
+   "DevOps",
+   "CI/CD"
+  ],
+  "requirements_summary": "Bachelor's in CS/CE or equivalent, 10+ years embedded networking software experience, Layer 2/3 switching and multicast expertise, Linux/kernel and driver experience, advanced C/C++/Python/bash, AV and PCB familiarity, CI/CD/DevOps participation."
  },
  {
   "id": "workable___mindful_support_services___91c37d28-5af9-4a04-ae52-6f4b69168a27",
