@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jobbot — hiring.cafe helper</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --panel2: #1e2230; --border: #2a2f3d;
+    --text: #e6e9f0; --muted: #8b92a5; --accent: #5b8cff;
+    --new: #5b8cff; --opened: #e0a834; --submitted: #3fb970; --failed: #e05252; --skipped: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.45 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { position: sticky; top: 0; z-index: 10; background: var(--panel);
+           border-bottom: 1px solid var(--border); padding: 12px 20px; }
+  .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  h1 { font-size: 17px; margin: 0 14px 0 0; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--border); border-radius: 20px; padding: 3px 11px;
+          cursor: pointer; color: var(--muted); background: transparent; font-size: 12.5px; }
+  .chip b { color: var(--text); margin-left: 4px; }
+  .chip.active { border-color: var(--accent); color: var(--text); background: #232b42; }
+  .filters { margin-top: 10px; }
+  input[type=search], select {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 10px; font-size: 13.5px; outline: none; }
+  input[type=search] { flex: 1; min-width: 180px; }
+  input[type=search]:focus, select:focus { border-color: var(--accent); }
+  .toggle { display: flex; align-items: center; gap: 7px; background: var(--panel2);
+            border: 1px solid var(--border); border-radius: 8px; padding: 7px 12px;
+            cursor: pointer; font-size: 13.5px; color: var(--muted); user-select: none; }
+  .toggle:has(input:checked) { border-color: var(--accent); color: var(--text); background: #232b42; }
+  .toggle input { accent-color: var(--accent); margin: 0; }
+  button.primary { background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+          padding: 8px 14px; font-size: 13.5px; cursor: pointer; font-weight: 600; }
+  button.primary:disabled { opacity: .55; cursor: default; }
+  button.danger { background: transparent; border: 1px solid #5a2626; color: #e08080;
+          border-radius: 8px; padding: 7px 12px; font-size: 13px; cursor: pointer; }
+  button.danger:hover { border-color: var(--failed); background: #2a1616; }
+  #scrapeStatus { color: var(--muted); font-size: 12.5px; max-width: 420px; white-space: nowrap;
+                  overflow: hidden; text-overflow: ellipsis; }
+  main { max-width: 1100px; margin: 0 auto; padding: 14px 20px 60px; }
+  .job { display: flex; align-items: center; gap: 14px; background: var(--panel);
+         border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; }
+  .job.dim { opacity: .62; }
+  .job .info { flex: 1; min-width: 0; }
+  .job .title { font-weight: 600; font-size: 14.5px; }
+  .job .sub { color: var(--muted); font-size: 12.5px; margin-top: 2px;
+              white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .badges { display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+  .badge { font-size: 11px; font-weight: 700; letter-spacing: .4px; border-radius: 5px;
+           padding: 2.5px 7px; text-transform: uppercase; }
+  .src { background: var(--panel2); color: var(--muted); border: 1px solid var(--border); }
+  .st-NEW { background: #21304f; color: #9db9ff; }
+  .st-OPENED { background: #3d3117; color: #f0c060; }
+  .st-SUBMITTED { background: #17352a; color: #5fd695; }
+  .st-FAILED { background: #3d1d1d; color: #f08080; }
+  .st-SKIPPED { background: #262a33; color: #9aa1b2; }
+  .comp { color: var(--submitted); font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+  .actions { display: flex; gap: 6px; flex-shrink: 0; }
+  .actions button { background: var(--panel2); border: 1px solid var(--border); color: var(--text);
+                    border-radius: 7px; padding: 6px 11px; cursor: pointer; font-size: 12.5px; }
+  .actions button:hover { border-color: var(--accent); }
+  .actions .open { background: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .actions .icon { padding: 6px 8px; color: var(--muted); }
+  #count { color: var(--muted); font-size: 12.5px; margin: 6px 2px 12px; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <h1>jobbot <span>· hiring.cafe → Ashby / Greenhouse / Lever</span></h1>
+    <a href="/skills" style="color:var(--accent);text-decoration:none;font-size:13px;margin-right:6px">skill trends →</a>
+    <div class="chips" id="chips"></div>
+    <div style="flex:1"></div>
+    <span id="scrapeStatus"></span>
+    <input type="search" id="scrapeQ" placeholder="Keywords to scrape (blank = defaults)"
+           style="flex:0 1 260px;min-width:170px" onkeydown="if(event.key==='Enter')triggerScrape()">
+    <select id="scrapeDays" title="Only scrape jobs posted within this window">
+      <option value="1">Last 24 hours</option>
+      <option value="3">Last 3 days</option>
+      <option value="7">Last week</option>
+      <option value="14">Last 2 weeks</option>
+      <option value="30">Last month</option>
+      <option value="61" selected>Last 2 months</option>
+      <option value="92">Last 3 months</option>
+    </select>
+    <button class="primary" id="scrapeBtn" onclick="triggerScrape()">Scrape</button>
+  </div>
+  <div class="row filters">
+    <input type="search" id="q" placeholder="Search title, company, location…" oninput="render()">
+    <label class="toggle"><input type="checkbox" id="remoteOnly" checked onchange="remoteChanged()"> Remote only</label>
+    <select id="queryFilter" onchange="render()" style="max-width:220px">
+      <option value="">All searches</option>
+    </select>
+    <select id="source" onchange="render()">
+      <option value="">All sources</option>
+      <option value="ashby">Ashby</option>
+      <option value="grnhse">Greenhouse</option>
+      <option value="lever">Lever</option>
+    </select>
+    <select id="sort" onchange="render()">
+      <option value="">Sort: default</option>
+      <option value="posted">Sort: newest first</option>
+      <option value="comp">Sort: comp high → low</option>
+      <option value="company">Sort: company A → Z</option>
+    </select>
+    <button class="danger" onclick="clearJobs()" title="Empty the scraped job list (application history is kept)">Clear jobs</button>
+  </div>
+</header>
+<main>
+  <div id="count"></div>
+  <div id="list"></div>
+</main>
+<script>
+let jobs = [];
+let statusFilter = "";  // "" = all
+const SRC_LABEL = { ashby: "Ashby", grnhse: "Greenhouse", lever: "Lever" };
+const STATUSES = ["NEW", "OPENED", "SUBMITTED", "SKIPPED", "FAILED"];
+
+const esc = s => (s || "").replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function fmtComp(j) {
+  const k = n => "$" + Math.round(n / 1000) + "k";
+  if (j.comp_min && j.comp_max) return j.comp_min === j.comp_max ? k(j.comp_min) : k(j.comp_min) + "–" + k(j.comp_max);
+  if (j.comp_min) return k(j.comp_min) + "+";
+  if (j.comp_max) return "up to " + k(j.comp_max);
+  return "";
+}
+
+async function loadJobs() {
+  jobs = await (await fetch("/api/jobs")).json();
+  populateQueryFilter();
+  render();
+}
+
+function populateQueryFilter() {
+  const sel = document.getElementById("queryFilter");
+  const cur = sel.value;
+  const names = [...new Set(jobs.map(j => j.search_query).filter(Boolean))].sort();
+  const hasUntagged = jobs.some(j => !j.search_query);
+  sel.innerHTML = '<option value="">All searches</option>' +
+    names.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("") +
+    (hasUntagged ? '<option value="__none__">(earlier scrapes)</option>' : "");
+  sel.value = [...sel.options].some(o => o.value === cur) ? cur : "";
+}
+
+function renderChips() {
+  const counts = { "": jobs.length };
+  for (const s of STATUSES) counts[s] = 0;
+  for (const j of jobs) counts[j.status] = (counts[j.status] || 0) + 1;
+  const chip = (val, label) =>
+    `<button class="chip ${statusFilter === val ? "active" : ""}" onclick="setFilter('${val}')">` +
+    `${label}<b>${counts[val] || 0}</b></button>`;
+  document.getElementById("chips").innerHTML =
+    chip("", "All") + STATUSES.map(s => chip(s, s[0] + s.slice(1).toLowerCase())).join("");
+}
+
+function setFilter(v) { statusFilter = v; render(); }
+
+function remoteChanged() {
+  localStorage.setItem("remoteOnly", document.getElementById("remoteOnly").checked ? "1" : "0");
+  render();
+}
+
+function visibleJobs() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const src = document.getElementById("source").value;
+  const qf = document.getElementById("queryFilter").value;
+  const remoteOnly = document.getElementById("remoteOnly").checked;
+  let list = jobs.filter(j =>
+    (!remoteOnly || j.workplace_type === "Remote") &&
+    (!statusFilter || j.status === statusFilter) &&
+    (!src || j.source === src) &&
+    (!qf || (qf === "__none__" ? !j.search_query : j.search_query === qf)) &&
+    (!q || (j.title + " " + j.company + " " + j.location + " " + (j.search_query || "")).toLowerCase().includes(q)));
+  const sort = document.getElementById("sort").value;
+  if (sort === "comp") list = [...list].sort((a, b) => (b.comp_max || b.comp_min || 0) - (a.comp_max || a.comp_min || 0));
+  if (sort === "company") list = [...list].sort((a, b) => a.company.localeCompare(b.company));
+  if (sort === "posted") list = [...list].sort((a, b) => (b.posted_at || "").localeCompare(a.posted_at || ""));
+  return list;
+}
+
+function ageLabel(j) {
+  if (!j.posted_at) return "";
+  const d = Math.floor((Date.now() - new Date(j.posted_at)) / 86400000);
+  if (isNaN(d) || d < 0) return "";
+  return " · posted " + (d === 0 ? "today" : d < 61 ? d + "d ago" : Math.round(d / 30.4) + "mo ago");
+}
+
+function render() {
+  renderChips();
+  const list = visibleJobs();
+  document.getElementById("count").textContent = `${list.length} of ${jobs.length} jobs`;
+  const el = document.getElementById("list");
+  if (!list.length) { el.innerHTML = `<div class="empty">No jobs match. Try clearing filters or scraping.</div>`; return; }
+  el.innerHTML = list.map(j => {
+    const idx = jobs.indexOf(j);
+    const dim = j.status !== "NEW" ? "dim" : "";
+    const opened = j.opened_ts ? ` · opened ${esc(j.opened_ts.replace("T", " "))}` : "";
+    const comp = fmtComp(j);
+    return `<div class="job ${dim}">
+      <div class="info">
+        <div class="title">${esc(j.title)} <span style="color:var(--muted);font-weight:400">· ${esc(j.company)}</span></div>
+        <div class="sub">${esc(j.location)}${j.workplace_type ? " · " + esc(j.workplace_type) : ""}${j.seniority ? " · " + esc(j.seniority) : ""}${ageLabel(j)}${opened}</div>
+      </div>
+      ${comp ? `<span class="comp">${comp}</span>` : ""}
+      <div class="badges">
+        <span class="badge src">${SRC_LABEL[j.source] || esc(j.source)}</span>
+        <span class="badge st-${j.status}">${j.status}</span>
+      </div>
+      <div class="actions">
+        <button class="open" onclick="openJob(${idx})">Open ↗</button>
+        <button class="icon" title="Mark submitted" onclick="setStatus(${idx},'SUBMITTED')">✓</button>
+        <button class="icon" title="Skip" onclick="setStatus(${idx},'SKIPPED')">✗</button>
+        <button class="icon" title="Reset to new" onclick="setStatus(${idx},'NEW')">↺</button>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function openJob(idx) {
+  const j = jobs[idx];
+  window.open(j.url, "_blank");          // synchronous, so popup blockers allow it
+  j.opened_ts = new Date().toISOString().slice(0, 19);
+  if (j.status === "NEW") j.status = "OPENED";
+  render();
+  fetch("/api/open", { method: "POST", headers: { "Content-Type": "application/json" },
+                       body: JSON.stringify({ url: j.url }) }).catch(() => {});
+}
+
+async function setStatus(idx, status) {
+  const j = jobs[idx];
+  j.status = status;
+  if (status === "NEW") j.opened_ts = null;
+  render();
+  await fetch("/api/status", { method: "POST", headers: { "Content-Type": "application/json" },
+                               body: JSON.stringify({ url: j.url, status }) }).catch(() => {});
+}
+
+async function triggerScrape() {
+  const btn = document.getElementById("scrapeBtn");
+  btn.disabled = true;
+  const query = document.getElementById("scrapeQ").value.trim();
+  const days = +document.getElementById("scrapeDays").value;
+  await fetch("/api/scrape", { method: "POST", headers: { "Content-Type": "application/json" },
+                               body: JSON.stringify({ query, days }) });
+  pollScrape();
+}
+
+async function clearJobs() {
+  if (!confirm(`Remove all ${jobs.length} jobs from the list?\n\nYour statuses and application history are kept, and re-scraped jobs get them back.`)) return;
+  const r = await fetch("/api/clear", { method: "POST" });
+  const d = await r.json();
+  if (d.error) { alert(d.error); return; }
+  document.getElementById("scrapeStatus").textContent = `Cleared ${d.cleared} jobs`;
+  loadJobs();
+}
+
+async function pollScrape() {
+  const btn = document.getElementById("scrapeBtn");
+  const st = document.getElementById("scrapeStatus");
+  const info = await (await fetch("/api/scrape")).json();
+  if (info.running) {
+    btn.disabled = true;
+    st.textContent = `Scraping ${info.query ? `"${info.query}"` : "defaults"}… ` + (info.tail[info.tail.length - 1] || "");
+    setTimeout(pollScrape, 2000);
+  } else {
+    btn.disabled = false;
+    if (info.finished) {
+      st.textContent = (info.rc === 0 ? "Done: " : "Scrape failed: ") + (info.tail[info.tail.length - 1] || "");
+      loadJobs();
+    }
+  }
+}
+
+document.getElementById("remoteOnly").checked = localStorage.getItem("remoteOnly") !== "0";
+loadJobs();
+pollScrape();
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# local environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+
+# personal auto-apply machinery — contains contact info, answers, resume text.
+# Stays local; the public repo is the JD scraper + skill-trend pipeline only.
+bot/apply.py
+bot/profile.py
+bot/llm.py
+bot/codes.py
+bot/formfill.py
+bot/adapters/
+run_parallel.sh
+
+# data: publish only the scraped job list and the analyzed stats.
+# state.json / applications.csv are personal history; descriptions.json is a
+# 20MB cache rebuilt by CI; logs and probes are scratch.
+data/*
+!data/jobs.json
+!data/skill_stats.json

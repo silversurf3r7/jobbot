@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jobbot — skill trends</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --panel2: #1e2230; --border: #2a2f3d;
+    --text: #e6e9f0; --muted: #8b92a5; --accent: #5b8cff;
+    --green: #3fb970; --yellow: #e0a834; --red: #e05252;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.45 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { position: sticky; top: 0; z-index: 10; background: var(--panel);
+           border-bottom: 1px solid var(--border); padding: 12px 20px; }
+  .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  h1 { font-size: 17px; margin: 0 14px 0 0; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  a.nav { color: var(--accent); text-decoration: none; font-size: 13px; }
+  a.nav:hover { text-decoration: underline; }
+  button.primary { background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+          padding: 8px 14px; font-size: 13.5px; cursor: pointer; font-weight: 600; }
+  button.primary:disabled { opacity: .55; cursor: default; }
+  #refreshStatus { color: var(--muted); font-size: 12.5px; max-width: 460px; white-space: nowrap;
+                   overflow: hidden; text-overflow: ellipsis; }
+  main { max-width: 1100px; margin: 0 auto; padding: 16px 20px 80px; }
+
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+          padding: 12px 18px; min-width: 130px; }
+  .stat .n { font-size: 22px; font-weight: 700; }
+  .stat .l { color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+  h2 { font-size: 15px; margin: 26px 0 10px; }
+  h2 small { color: var(--muted); font-weight: 400; font-size: 12.5px; margin-left: 8px; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .chip { border: 1px solid var(--border); border-radius: 20px; padding: 3px 11px;
+          cursor: pointer; color: var(--muted); background: transparent; font-size: 12.5px; }
+  .chip.active { border-color: var(--accent); color: var(--text); background: #232b42; }
+
+  .bars { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+          padding: 14px 16px; }
+  .barrow { display: grid; grid-template-columns: 170px 1fr 90px; align-items: center;
+            gap: 10px; padding: 3.5px 0; }
+  .barrow .name { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                  text-align: right; }
+  .barrow .name small { color: var(--muted); font-size: 10.5px; display: block; margin-top: -2px; }
+  .track { background: var(--panel2); border-radius: 5px; height: 18px; overflow: hidden; }
+  .fill { height: 100%; border-radius: 5px; min-width: 2px;
+          transition: width .5s cubic-bezier(.2,.8,.2,1); }
+  .barrow .val { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .barrow .val b { color: var(--text); font-size: 12.5px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+          padding: 14px 16px; }
+  .card h3 { margin: 0 0 10px; font-size: 13.5px; }
+  .mrow { display: grid; grid-template-columns: 110px 1fr 74px; align-items: center;
+          gap: 8px; padding: 2.5px 0; font-size: 12.5px; }
+  .mrow .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: right; }
+  .mrow .track { height: 13px; }
+  .mrow .val { color: var(--muted); font-size: 11.5px; }
+  .winner { color: var(--green); font-weight: 700; }
+
+  .trendbox { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+              padding: 14px 16px; }
+  .legend { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .lchip { display: flex; align-items: center; gap: 6px; border: 1px solid var(--border);
+           border-radius: 20px; padding: 3px 11px; cursor: pointer; font-size: 12.5px;
+           color: var(--muted); background: transparent; }
+  .lchip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--border); }
+  .lchip.on { color: var(--text); background: var(--panel2); }
+  svg text { fill: var(--muted); font-size: 10.5px; }
+  .gridline { stroke: var(--border); stroke-width: 1; stroke-dasharray: 3 4; }
+  .axis { stroke: var(--border); stroke-width: 1; }
+  #trendTip { position: fixed; pointer-events: none; background: var(--panel2);
+              border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+              font-size: 12px; display: none; z-index: 20; max-width: 260px; }
+  .pairs { columns: 2; column-gap: 24px; font-size: 12.5px; color: var(--muted); }
+  .pairs div { padding: 2px 0; break-inside: avoid; }
+  .pairs b { color: var(--text); font-weight: 600; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+  .seg { display: flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .seg button { background: transparent; border: 0; color: var(--muted); padding: 5px 12px;
+                font-size: 12px; cursor: pointer; }
+  .seg button.active { background: var(--panel2); color: var(--text); }
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <h1>skill trends <span>· what DevOps/SRE/Platform JDs actually ask for</span></h1>
+    <a class="nav" href="/">← job list</a>
+    <div style="flex:1"></div>
+    <span id="refreshStatus"></span>
+    <button class="primary" id="refreshBtn" onclick="refresh()">Refresh data</button>
+  </div>
+</header>
+<main>
+  <div class="stats" id="stats"></div>
+  <div id="content" class="empty">Loading…</div>
+</main>
+<div id="trendTip"></div>
+
+<script>
+const CAT_COLORS = {
+  "IaC": "#5b8cff", "Containers": "#3fb970", "Cloud": "#e0a834", "Cloud Services": "#d98b3a",
+  "CI/CD": "#b06ee8", "GitOps": "#4fc3d9", "Observability": "#e05252", "Languages": "#6bd66b",
+  "Config Mgmt": "#8f9bff", "Data": "#d96bb1", "Security": "#e8d34f", "Networking": "#5fd6c0",
+  "Practices": "#9aa1b2"
+};
+const LINE_COLORS = ["#5b8cff","#3fb970","#e0a834","#e05252","#b06ee8","#4fc3d9","#d96bb1","#e8d34f"];
+let DATA = null;
+let STATIC = false;         // true when served without the Python backend (GitHub Pages)
+let activeCat = "All";
+let topN = 30;
+let trendSel = [];          // selected skill names for trend chart
+let bucket = "weekly";      // weekly | monthly
+
+async function load() {
+  let r = await fetch('/api/skills').catch(() => null);
+  if (!r || !r.ok) {        // no backend: read the stats file published next to this page
+    r = await fetch('./skill_stats.json');
+    STATIC = true;
+    document.getElementById('refreshBtn').style.display = 'none';
+    document.querySelector('a.nav').style.display = 'none';
+  }
+  DATA = await r.json();
+  if (!DATA || !DATA.skills || !DATA.skills.length) {
+    document.getElementById('content').innerHTML =
+      '<div class="empty">No skill stats yet — hit <b>Refresh data</b> to fetch job descriptions and analyze them.</div>';
+    renderStats();
+    return;
+  }
+  if (!trendSel.length) trendSel = defaultTrendSel();
+  renderStats();
+  renderContent();
+}
+
+function defaultTrendSel() {
+  // interesting rivals by default rather than the boring giants
+  const have = new Set(DATA.skills.map(s => s.name));
+  const wish = ["Terraform","Pulumi","GitHub Actions","GitLab CI","Jenkins","Kubernetes"];
+  return wish.filter(w => have.has(w)).slice(0, 6);
+}
+
+function renderStats() {
+  const el = document.getElementById('stats');
+  if (!DATA || !DATA.analyzed) { el.innerHTML = ''; return; }
+  const gen = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString() : '—';
+  el.innerHTML = `
+    <div class="stat"><div class="n">${DATA.total_jobs}</div><div class="l">jobs scraped</div></div>
+    <div class="stat"><div class="n">${DATA.analyzed}</div><div class="l">JDs analyzed</div></div>
+    <div class="stat"><div class="n">${DATA.with_full_text}</div><div class="l">full descriptions</div></div>
+    <div class="stat"><div class="n">${DATA.skills.length}</div><div class="l">skills tracked</div></div>
+    <div class="stat"><div class="n" style="font-size:14px;padding-top:6px">${gen}</div><div class="l">last analyzed</div></div>`;
+}
+
+function renderContent() {
+  const cats = ["All", ...new Set(DATA.skills.map(s => s.category))];
+  document.getElementById('content').className = '';
+  document.getElementById('content').innerHTML = `
+    <h2>Top skills <small>% of analyzed JDs that mention each</small></h2>
+    <div class="chips" id="catChips"></div>
+    <div class="bars" id="skillBars"></div>
+    <h2>Head-to-head <small>who's winning each tooling war</small></h2>
+    <div class="cards" id="matchups"></div>
+    <h2>Trend over time <small>% of that period's JDs mentioning the skill — click chips to compare</small></h2>
+    <div class="trendbox">
+      <div class="row" style="margin-bottom:8px">
+        <div class="legend" id="trendChips" style="flex:1"></div>
+        <div class="seg">
+          <button id="segW" class="${bucket==='weekly'?'active':''}" onclick="setBucket('weekly')">weekly</button>
+          <button id="segM" class="${bucket==='monthly'?'active':''}" onclick="setBucket('monthly')">monthly</button>
+        </div>
+      </div>
+      <div id="trendChart"></div>
+    </div>
+    <h2>Frequently paired <small>skills that show up in the same JD</small></h2>
+    <div class="bars pairs" id="pairs"></div>`;
+  renderCatChips(cats);
+  renderBars();
+  renderMatchups();
+  renderTrendChips();
+  renderTrend();
+  renderPairs();
+}
+
+function renderCatChips(cats) {
+  const el = document.getElementById('catChips');
+  el.innerHTML = cats.map(c =>
+    `<button class="chip ${c===activeCat?'active':''}" onclick="setCat('${c}')">${c}</button>`).join('');
+}
+function setCat(c) { activeCat = c; topN = 30; renderCatChips(["All", ...new Set(DATA.skills.map(s=>s.category))]); renderBars(); }
+
+function renderBars() {
+  const el = document.getElementById('skillBars');
+  let rows = DATA.skills.filter(s => activeCat === 'All' || s.category === activeCat);
+  const shown = rows.slice(0, topN);
+  const max = shown.length ? shown[0].pct : 1;
+  el.innerHTML = shown.map(s => `
+    <div class="barrow">
+      <div class="name" title="${s.name}">${s.name}<small>${s.category}</small></div>
+      <div class="track"><div class="fill" style="width:${Math.max(1.5, 100*s.pct/max)}%;
+           background:${CAT_COLORS[s.category]||'#5b8cff'}"></div></div>
+      <div class="val"><b>${s.pct}%</b> · ${s.count}</div>
+    </div>`).join('') +
+    (rows.length > topN
+      ? `<div style="text-align:center;margin-top:8px"><button class="chip" onclick="topN+=30;renderBars()">show more (${rows.length - topN} left)</button></div>`
+      : '');
+}
+
+function renderMatchups() {
+  const el = document.getElementById('matchups');
+  el.innerHTML = DATA.matchups.map(m => {
+    const max = Math.max(1, ...m.skills.map(s => s.pct));
+    return `<div class="card"><h3>${m.title}</h3>` + m.skills.map((s, i) => `
+      <div class="mrow">
+        <div class="name ${i===0 && s.count>0 ? 'winner':''}">${s.name}</div>
+        <div class="track"><div class="fill" style="width:${Math.max(1.5,100*s.pct/max)}%;
+             background:${i===0?'var(--green)':'#3a4257'}"></div></div>
+        <div class="val">${s.pct}% · ${s.count}</div>
+      </div>`).join('') + '</div>';
+  }).join('');
+}
+
+function renderTrendChips() {
+  const el = document.getElementById('trendChips');
+  const top = DATA.skills.slice(0, 24);
+  for (const name of trendSel)   // keep selected even if not in top list
+    if (!top.some(s => s.name === name)) { const f = DATA.skills.find(s=>s.name===name); if (f) top.push(f); }
+  el.innerHTML = top.map(s => {
+    const idx = trendSel.indexOf(s.name);
+    const color = idx >= 0 ? LINE_COLORS[idx % LINE_COLORS.length] : 'var(--border)';
+    return `<button class="lchip ${idx>=0?'on':''}" onclick="toggleTrend('${s.name.replace(/'/g,"\\'")}')">
+      <span class="dot" style="background:${color}"></span>${s.name}</button>`;
+  }).join('');
+}
+
+function toggleTrend(name) {
+  const i = trendSel.indexOf(name);
+  if (i >= 0) trendSel.splice(i, 1);
+  else { if (trendSel.length >= 8) trendSel.shift(); trendSel.push(name); }
+  renderTrendChips(); renderTrend();
+}
+function setBucket(b) {
+  bucket = b;
+  document.getElementById('segW').className = b==='weekly'?'active':'';
+  document.getElementById('segM').className = b==='monthly'?'active':'';
+  renderTrend();
+}
+
+function renderTrend() {
+  const el = document.getElementById('trendChart');
+  const keys = bucket === 'weekly' ? DATA.weeks : DATA.months;
+  const totals = bucket === 'weekly' ? DATA.week_totals : DATA.month_totals;
+  const MIN_JOBS = 10;   // drop sparse buckets at the edges
+  const buckets = keys.filter(k => (totals[k] || 0) >= MIN_JOBS);
+  if (buckets.length < 2 || !trendSel.length) {
+    el.innerHTML = '<div class="empty" style="padding:30px 0">Not enough time buckets yet — trends appear as more dated jobs accumulate.</div>';
+    return;
+  }
+  const series = trendSel.map((name, i) => {
+    const s = DATA.skills.find(x => x.name === name);
+    const src = bucket === 'weekly' ? s.weekly : s.monthly;
+    return { name, color: LINE_COLORS[i % LINE_COLORS.length],
+             pts: buckets.map(k => 100 * (src[k] || 0) / totals[k]) };
+  });
+  const W = 1040, H = 300, padL = 44, padR = 14, padT = 12, padB = 34;
+  const maxY = Math.max(5, ...series.flatMap(s => s.pts)) * 1.12;
+  const x = i => padL + i * (W - padL - padR) / (buckets.length - 1);
+  const y = v => padT + (H - padT - padB) * (1 - v / maxY);
+
+  let g = '';
+  const ticks = 4;
+  for (let t = 0; t <= ticks; t++) {
+    const v = maxY * t / ticks, yy = y(v);
+    g += `<line class="gridline" x1="${padL}" x2="${W-padR}" y1="${yy}" y2="${yy}"/>`;
+    g += `<text x="${padL-6}" y="${yy+3.5}" text-anchor="end">${Math.round(v)}%</text>`;
+  }
+  const step = Math.ceil(buckets.length / 10);
+  buckets.forEach((k, i) => {
+    if (i % step === 0 || i === buckets.length - 1)
+      g += `<text x="${x(i)}" y="${H-12}" text-anchor="middle">${bucket==='weekly' ? k.slice(5) : k}</text>`;
+  });
+  for (const s of series) {
+    const path = s.pts.map((v, i) => `${i?'L':'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join('');
+    g += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2.2" stroke-linejoin="round"/>`;
+    g += s.pts.map((v, i) =>
+      `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="3" fill="${s.color}"/>`).join('');
+  }
+  g += `<line class="axis" x1="${padL}" x2="${W-padR}" y1="${H-padB}" y2="${H-padB}"/>`;
+  // invisible hover strips
+  g += buckets.map((k, i) =>
+    `<rect x="${(x(i)-((W-padL-padR)/(buckets.length-1))/2).toFixed(1)}" y="0" width="${((W-padL-padR)/(buckets.length-1)).toFixed(1)}" height="${H}"
+       fill="transparent" onmousemove="tip(event,${i})" onmouseleave="untip()"/>`).join('');
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" style="width:100%">${g}</svg>`;
+  el._buckets = buckets; el._series = series; el._totals = totals;
+}
+
+function tip(ev, i) {
+  const el = document.getElementById('trendChart');
+  const t = document.getElementById('trendTip');
+  const k = el._buckets[i];
+  t.innerHTML = `<b>${bucket==='weekly' ? 'week of '+k : k}</b> · ${el._totals[k]} JDs<br>` +
+    el._series.map(s => `<span style="color:${s.color}">●</span> ${s.name}: ${s.pts[i].toFixed(1)}%`).join('<br>');
+  t.style.display = 'block';
+  t.style.left = Math.min(ev.clientX + 14, window.innerWidth - 280) + 'px';
+  t.style.top = (ev.clientY + 14) + 'px';
+}
+function untip() { document.getElementById('trendTip').style.display = 'none'; }
+
+function renderPairs() {
+  const el = document.getElementById('pairs');
+  el.innerHTML = (DATA.pairs || []).slice(0, 30).map(([a, b, n]) =>
+    `<div><b>${a}</b> + <b>${b}</b> — ${n}</div>`).join('') || '<div>—</div>';
+}
+
+async function refresh() {
+  const fetchToo = confirm('Also fetch new/missing job descriptions from the ATS APIs first?\n(OK = fetch + analyze, Cancel = just re-analyze what\'s cached)');
+  await fetch('/api/skills/refresh', { method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ fetch: fetchToo }) });
+  pollRefresh();
+}
+
+let pollTimer = null;
+async function pollRefresh() {
+  clearTimeout(pollTimer);
+  const r = await fetch('/api/skills/status');
+  const st = await r.json();
+  const el = document.getElementById('refreshStatus');
+  const btn = document.getElementById('refreshBtn');
+  if (st.running) {
+    btn.disabled = true;
+    el.textContent = `${st.step}… ${st.tail && st.tail.length ? st.tail[st.tail.length-1] : ''}`;
+    pollTimer = setTimeout(pollRefresh, 1500);
+  } else {
+    btn.disabled = false;
+    if (st.finished) {
+      el.textContent = st.rc === 0 ? `refreshed ${new Date(st.finished).toLocaleTimeString()}` : `refresh failed (rc=${st.rc})`;
+      load();
+    } else el.textContent = '';
+  }
+}
+
+load().then(() => { if (!STATIC) pollRefresh(); });
+</script>
+</body>
+</html>

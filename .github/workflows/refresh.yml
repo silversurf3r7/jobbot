@@ -1,0 +1,81 @@
+name: refresh skill trends
+
+on:
+  schedule:
+    - cron: "23 10 * * *"   # daily, 10:23 UTC
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: "Run the scrape/analyze pipeline (false = just redeploy the site)"
+        default: "true"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # JD texts are a pure cache (rebuildable from the ATS APIs), so they live
+      # in the Actions cache instead of the repo. Daily runs keep it warm.
+      - name: Restore description cache
+        if: ${{ github.event.inputs.refresh != 'false' }}
+        uses: actions/cache@v4
+        with:
+          path: data/descriptions.json
+          key: descriptions-${{ github.run_id }}
+          restore-keys: descriptions-
+
+      - name: Scrape hiring.cafe (last 7 days)
+        if: ${{ github.event.inputs.refresh != 'false' }}
+        run: python bot/fetch_jobs.py --days 7
+
+      - name: Fetch new job descriptions
+        if: ${{ github.event.inputs.refresh != 'false' }}
+        run: python -m bot.fetch_descriptions
+
+      - name: Analyze skills
+        if: ${{ github.event.inputs.refresh != 'false' }}
+        run: python -m bot.analyze_skills
+
+      - name: Commit refreshed data
+        if: ${{ github.event.inputs.refresh != 'false' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/skill_stats.json
+          git diff --cached --quiet || git commit -m "data: daily skill-trend refresh"
+          git push
+
+      - name: Build static site
+        run: |
+          mkdir -p site
+          cp web/skills.html site/index.html
+          cp data/skill_stats.json site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
